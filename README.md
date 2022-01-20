@@ -33,6 +33,7 @@ A chatbot capable of answering basic frequenly asked CSE advising questions.
 
 * COURSE
 * INSTRUCTOR
+* TRACK (e.g., AI, Database)
 * **TODO**
 
 **Note: Data format must match that in [test_spaCy.py](test_spaCy.py).**
