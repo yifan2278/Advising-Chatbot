@@ -1,6 +1,6 @@
 # CSE-Advising-Chatbot
 
-A chatbot capable of answering basic frequenly asked advising questions.
+A chatbot capable of answering basic frequenly asked CSE advising questions.
 
 [test_NLPC.py](test_NLPC.py) gives an example of using [NLPC](https://github.com/osu-cse-5914/natural-language-processing-classifier) in Python. Clone [NLPC](https://github.com/osu-cse-5914/natural-language-processing-classifier), run start.py, and run [test_NLPC.py](test_NLPC.py).
 
