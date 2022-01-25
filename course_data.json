@@ -1,15 +1,66 @@
 {
   "course1": {
     "num": "CSE5914",
-    "prereq": "CSE 3901, CSE 2501, CSE 3521",
+    "prereq": "3521 or 5521, and 2501 or Phil 1338, and CSE 3901 or 3902 or 3903, and 2nd writing; or grad standing.",
     "track": "Artificial intelligence (AI)",
-    "topic": "AI"
+    "topic": "AI, knowledge-base, project",
+    "name" : "Capstone Design: Knowledge-Based Systems",
+    "desc": "Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills."
   },
-  
   "course2": {
     "num": "CSE5525",
-    "prereq": "CSE 3521, STAT 3470, CSE 5522",
+    "prereq": "(CSE 3521 or CSE 5521) and (CSE 5522 or Stat 3460 or Stat 3470)",
     "track": "Artificial intelligence (AI)",
-    "topic": "NLP"
+    "topic": "AI, NLP",
+    "name": "Foundations of Speech and Language Processing",
+    "desc": "Fundamentals of natural language processing, automatic speech recognition and speech synthesis; lab projects concentrating on building systems to process written and/or spoken language."
+  },
+  "course3": {
+    "num": "CSE2431",
+    "prereq": "2421, or 2451 and ECE 2560; and enrollment in CSE, CIS, Data Analytics, or ECE majors.",
+    "track": "Core",
+    "topic": "System",
+    "name": "Systems II: Introduction to Operating Systems",
+    "desc": "Introduction to operating system concepts: process, CPU scheduling, memory management, file system and storage, and multi-threaded programming."
+  },
+  "course4": {
+    "num": "CSE2221",
+    "prereq": "1212, 1221, 1222, 1223, 1224, Engr 1221, 1281.01H, 1281.02H, or CSE Placement Level A. Prereq or concur: Math 1151, 1161.01, or 1161.02. Not open to students with credit for 5022.",
+    "track": "Core",
+    "topic": "Software",
+    "name": "Software I: Software Components",
+    "desc": "Intellectual foundations of software engineering; design-by-contract principles; mathematical modeling of software functionality; component-based software from client perspective; layered data representation"
+  },
+  "course5": {
+    "num": "CSE2231",
+    "prereq": "Prereq: 2221. Concur: 2321. Not open to students with credit for 2231.01.",
+    "track": "Core",
+    "topic": "Software",
+    "name": "Software II: Software Development and Design",
+    "desc": "Data representation using hashing, search trees, and linked data structures; algorithms for sorting; using trees for language processing; component interface design; best practices in Java."
+  },
+  "course6": {
+    "num": "CSE2421",
+    "prereq": "2122, 2123 or 2231; and 2321 or Math 2566; and enrollment in CSE, CIS, Data Analytics or Math majors",
+    "track": "Core",
+    "topic": "System",
+    "name": "Systems I: Introduction to Low-Level Programming and computer Organization",
+    "desc": "Introduction to computer architecture at machine and assembly language level; pointers and addressing; C programming at machine level; computer organization"
+  },
+  "course7": {
+    "num": "CSE2321",
+    "prereq": "Prereq: 2122, 2123, or 2221; and Math 1151, or 1161. Concur (for students with credit for 2221): 2231.",
+    "track": "Core",
+    "topic": "Algorithm",
+    "name": "Foundations I: Discrete Structures",
+    "desc": "Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic analysis; recurrence relations."
+  },
+  "course8": {
+    "num": "CSE2331",
+    "prereq": "Prereq: 2231, 2321, and Stat 3460 or 3470. Concur: Math 3345 and enrollment in CSE, CIS, ECE, Data Analytics, Math majors or CIS minor.",
+    "track": "Core",
+    "topic": "Algorithm",
+    "name": "Foundations II: Data Structures and Algorithms",
+    "desc": "Design/analysis of algorithms and data structures; divide-and-conquer; sorting and selection, search trees, hashing, graph algorithms, string matching; probabilistic analysis; randomized algorithms; NP-completeness."
   }
 }

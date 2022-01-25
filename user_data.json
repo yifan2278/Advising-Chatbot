@@ -4,7 +4,23 @@
     "label": "RELATED-COURSES"
   },
   "sample2": {
-    "input": "Hello",
+    "input": "Hello.",
     "label": "GREATING"
+  },
+  "sample3": {
+    "input": "See ya.",
+    "label": "GOODBYE"
+  },
+  "sample4": {
+    "input": "What courses do I need to take before CSE3521?",
+    "label": "PREREQ"
+  },
+  "sample5": {
+    "input": "What is CSE2431 about?",
+    "label": "TOPICS"
+  },
+  "sample6": {
+    "input": "Who teaches CSE3521?",
+    "label": "WHO-TEACH"
   }
 }
