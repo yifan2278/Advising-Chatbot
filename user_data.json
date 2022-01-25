@@ -1,0 +1,10 @@
+{
+  "sample1": {
+    "input": "What are AI related course.",
+    "label": "RELATED-COURSES"
+  },
+  "sample2": {
+    "input": "Hello",
+    "label": "GREATING"
+  }
+}

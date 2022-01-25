@@ -1,0 +1,15 @@
+{
+  "course1": {
+    "num": "CSE5914",
+    "prereq": "CSE 3901, CSE 2501, CSE 3521",
+    "track": "Artificial intelligence (AI)",
+    "topic": "AI"
+  },
+  
+  "course2": {
+    "num": "CSE5525",
+    "prereq": "CSE 3521, STAT 3470, CSE 5522",
+    "track": "Artificial intelligence (AI)",
+    "topic": "NLP"
+  }
+}
