@@ -21,7 +21,11 @@ A chatbot capable of answering basic frequenly asked CSE advising questions.
 * GREETING
 * GOODBYE
 * PREREQ
+* SIMILAR-COURSES (e.g., What courses cover the similar topics to CSE 3521)
 * RELATED-COURSES (e.g., What are the AI related courses)
+  * RELATED-COURSES-AI
+  * RELATED-COURSES-DATABASE
+  * RELATED-COURSES-PYTHON
 * TOPICS (e.g., What is CSEXXXX about)
 * WHO-TEACH
 * TEACH-WHAT
@@ -33,9 +37,9 @@ A chatbot capable of answering basic frequenly asked CSE advising questions.
 
 ## Named Entity Definitions
 
-* COURSE
-* INSTRUCTOR
-* TRACK (e.g., AI, Database)
+* COURSE (model in [test_spaCy.py](test_spaCy.py))
+* INSTRUCTOR (use [pretrained model](https://spacy.io/models/en/))
+* ~~TRACK (e.g., AI, Database)~~
 * **TODO**
 
 **Note: Data format must match that in [test_spaCy.py](test_spaCy.py).**
