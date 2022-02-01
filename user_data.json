@@ -5,7 +5,7 @@
   },
   "sample2": {
     "input": "Hello.",
-    "label": "GREATING"
+    "label": "GREETING"
   },
   "sample3": {
     "input": "See ya.",
