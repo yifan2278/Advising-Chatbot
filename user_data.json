@@ -1,7 +1,7 @@
 {
   "sample1": {
     "input": "What are AI related course?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-AI"
   },
   "sample2": {
     "input": "Hello.",
@@ -109,30 +109,30 @@
   },
   "sample28": {
     "input": "What courses teach me how to program in Python?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-PYTHON"
   },
   "sample29": {
     "input": "What courses are about security?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-SECURITY"
   },
   "sample30": {
     "input": "What courses can prepare me for my internship?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-SOFTWARE"
   },
   "sample31": {
     "input": "What courses will cover the cutting-edge technologies in AI?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-AI"
   },
   "sample32": {
     "input": "What courses will be on the basic data stuctures in algorithm?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-ALGORITHM"
   },
   "sample33": {
-    "input": "What are the courses that are covers similar topics compared to CSE3521?",
-    "label": "RELATED-COURSES"
+    "input": "What are the courses that covers similar topics compared to CSE3521?",
+    "label": "SIMILAR-COURSES"
   },
   "sample34": {
     "input": "What are the best courses on distributed computing?",
-    "label": "RELATED-COURSES"
+    "label": "RELATED-COURSES-DISTRIBUTED-COMPUTING"
   }
 }
