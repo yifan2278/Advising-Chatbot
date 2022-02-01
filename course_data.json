@@ -4,10 +4,82 @@
     "prereq": "3521 or 5521, and 2501 or Phil 1338, and CSE 3901 or 3902 or 3903, and 2nd writing; or grad standing.",
     "track": "Artificial intelligence (AI)",
     "topic": "AI, knowledge-base, project",
-    "name" : "Capstone Design: Knowledge-Based Systems",
+    "name": "Capstone Design: Knowledge-Based Systems",
     "desc": "Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills."
   },
   "course2": {
+    "num": "CSE5911",
+    "prereq": "3231 or 5231, and 2501 or Philos 1338, and CSE3901 or 3902 or 3903, and 2nd writing course or grad standing.",
+    "track": "no specific track",
+    "topic": "SWE methodology selection, High-level project, teamwork",
+    "name": "Capstone Design: Software Applications",
+    "desc": "Capstone design project: application of software engineering techniques, methodologies and technologies in software lifecycle activities using enterprise software frameworks; teamwork, written and oral communication."
+  },
+  "course3": {
+    "num": "CSE5912",
+    "prereq": "3541 or 5541, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing.",
+    "track": "Computer Graphics and Game Design",
+    "topic": "SWE for games, game idea generation, High-level project",
+    "name": "Capstone Design: Game Design and Development",
+    "desc": "Capstone design project; conceptual and technical design and implementation of interactive game, integrating custom code and toolkits; teamwork, written and oral communication skills."
+  },
+  "course4": {
+    "num": "CSE5913",
+    "prereq": "3541 or 5541, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing",
+    "track": "Computer Graphics and Game Design",
+    "topic": "Class software familiarization, ",
+    "name": "Capstone Design: Computer Animation",
+    "desc": "Capstone design project: conceptual and technical design and implementation of computer animation incorporating animation elements; teamwork, written and oral communication skills."
+  },
+  "course5": {
+    "num": "CSE5915",
+    "prereq": "3241 or 5241, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing",
+    "track": "no specific track",
+    "topic": "Web-based Information Systems, multimedia and scientific data management",
+    "name": "Capstone Design: Information Systems",
+    "desc": " Capstone design project; information system principles: database design methods and tools, indexing, searching, application development, testing, evaluation; teamwork, written and oral communication skills."
+  },
+  "course6": {
+    "num": "CSE5916",
+    "prereq": "2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing",
+    "track": "no specific track",
+    "topic": "The scientific method, theory-guided data science, the data science life-cycle,  data analysis",
+    "name": "Capstone Design: Research-Focused Projects",
+    "desc": "Capstone design project; convergent and scalable research formulation and development, computational solutions to open-ended research problems, teamwork, written and oral communication skills."
+  },
+  "course7": {
+    "num": "CSE5521",
+    "prereq": "2331 or 5331, or Grad standing. Not open to students with credit for 3521",
+    "track": "Artificial intelligence (AI)",
+    "topic": "",
+    "name": "Survey of Artificial Intelligence I: Basic Techniques",
+    "desc": "Survey of the basic concepts and techniques in artificial Intelligence, including problem solving, knowledge representation, and machine learning."
+  },
+  "course8": {
+    "num": "CSE5522",
+    "prereq": "3521 or 5521, and enrollment in CSE, CIS, ECE, or Data Analytics major; or Grad standing.",
+    "track": "Artificial intelligence (AI)",
+    "topic": "Probability theory, Bayesian networks and probabilistic representations, Machine learning, Natural language processing, Diagrammatic reasoning and abductive inference, Computer vision ",
+    "name": "Survey of Artificial Intelligence II: Advanced Techniques",
+    "desc": "Survey of advanced concepts, techniques, and applications of artificial intelligence, including knowledge representation, learning, natural language understanding, and vision."
+  },
+  "course9": {
+    "num": "CSE5523",
+    "prereq": "3521, 5521, or 5243; and 5522, Stat 3460, or 3470; and Math 2568, 2174, 4568, or 5520H; or Grad standing.",
+    "track": "no specific track",
+    "topic": "Basics of statistical pattern recognition, Probability and statistical inference, Bayes decision theory, Analysis of statistical algorithms, Clustering, Spectral clustering",
+    "name": "Machine Learning and Statistical Pattern Recognition",
+    "desc": "Introduction to basic concepts of machine learning and statistical pattern recognition; techniques for classification, clustering and data representation and their theoretical analysis."
+  },
+  "course10": {
+    "num": "CSE5524",
+    "prereq": "2331, or Sr or Grad standing. Not open to students with credit for 634.",
+    "track": "Artificial intelligence (AI)",
+    "topic": "Introductory computer vision, Image formation, Noise removal, Edge detection, Pyramids, Region segmentation, 2-D shape, Template matching, Motion, Tracking, 3-D, Event analysis, Features, Motion capture ",
+    "name": "Computer Vision for Human-Computer Interaction",
+    "desc": "Computer vision algorithms for use in human-computer interactive systems; image formation, image features, segmentation, shape analysis, object tracking, motion calculation, and applications."
+  },
+  "course11": {
     "num": "CSE5525",
     "prereq": "(CSE 3521 or CSE 5521) and (CSE 5522 or Stat 3460 or Stat 3470)",
     "track": "Artificial intelligence (AI)",
@@ -15,7 +87,15 @@
     "name": "Foundations of Speech and Language Processing",
     "desc": "Fundamentals of natural language processing, automatic speech recognition and speech synthesis; lab projects concentrating on building systems to process written and/or spoken language."
   },
-  "course3": {
+  "course12": {
+    "num": "CSE5526",
+    "prereq": "3521 or 5521. Not open to students with credit for 779",
+    "track": "Artificial intelligence (AI)",
+    "topic": "Introduction and McCulloch-Pitts networks, Perceptrons, Regression and least mean square algorithm, Multilayer perceptrons, Radial-basis function networks, Support vector machines, Recurrent networks, Unsupervised learning and self-organization, ",
+    "name": "Introduction to Neural Networks",
+    "desc": "Survey of fundamental methods and techniques of neural networks; single- and multi-layer perceptrons; radial-basis function networks; support vector machines; recurrent networks; supervised and unsupervised learning."
+  },
+  "course13": {
     "num": "CSE2431",
     "prereq": "2421, or 2451 and ECE 2560; and enrollment in CSE, CIS, Data Analytics, or ECE majors.",
     "track": "Core",
@@ -23,7 +103,7 @@
     "name": "Systems II: Introduction to Operating Systems",
     "desc": "Introduction to operating system concepts: process, CPU scheduling, memory management, file system and storage, and multi-threaded programming."
   },
-  "course4": {
+  "course14": {
     "num": "CSE2221",
     "prereq": "1212, 1221, 1222, 1223, 1224, Engr 1221, 1281.01H, 1281.02H, or CSE Placement Level A. Prereq or concur: Math 1151, 1161.01, or 1161.02. Not open to students with credit for 5022.",
     "track": "Core",
@@ -31,7 +111,7 @@
     "name": "Software I: Software Components",
     "desc": "Intellectual foundations of software engineering; design-by-contract principles; mathematical modeling of software functionality; component-based software from client perspective; layered data representation"
   },
-  "course5": {
+  "course15": {
     "num": "CSE2231",
     "prereq": "Prereq: 2221. Concur: 2321. Not open to students with credit for 2231.01.",
     "track": "Core",
@@ -39,7 +119,7 @@
     "name": "Software II: Software Development and Design",
     "desc": "Data representation using hashing, search trees, and linked data structures; algorithms for sorting; using trees for language processing; component interface design; best practices in Java."
   },
-  "course6": {
+  "course16": {
     "num": "CSE2421",
     "prereq": "2122, 2123 or 2231; and 2321 or Math 2566; and enrollment in CSE, CIS, Data Analytics or Math majors",
     "track": "Core",
@@ -47,7 +127,7 @@
     "name": "Systems I: Introduction to Low-Level Programming and computer Organization",
     "desc": "Introduction to computer architecture at machine and assembly language level; pointers and addressing; C programming at machine level; computer organization"
   },
-  "course7": {
+  "course17": {
     "num": "CSE2321",
     "prereq": "Prereq: 2122, 2123, or 2221; and Math 1151, or 1161. Concur (for students with credit for 2221): 2231.",
     "track": "Core",
@@ -55,7 +135,7 @@
     "name": "Foundations I: Discrete Structures",
     "desc": "Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic analysis; recurrence relations."
   },
-  "course8": {
+  "course18": {
     "num": "CSE2331",
     "prereq": "Prereq: 2231, 2321, and Stat 3460 or 3470. Concur: Math 3345 and enrollment in CSE, CIS, ECE, Data Analytics, Math majors or CIS minor.",
     "track": "Core",
