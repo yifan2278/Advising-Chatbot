@@ -1,11 +1,11 @@
 {
   "sample1": {
-    "input": "What are AI related course.",
+    "input": "What are AI related course?",
     "label": "RELATED-COURSES"
   },
   "sample2": {
     "input": "Hello.",
-    "label": "GREATING"
+    "label": "GREETING"
   },
   "sample3": {
     "input": "See ya.",
@@ -22,5 +22,121 @@
   "sample6": {
     "input": "Who teaches CSE3521?",
     "label": "WHO-TEACH"
+  },
+  "sample7": {
+    "input": "What course does Prof. Varnier teach?",
+    "label": "TEACH-WHAT"
+  },
+  "sample8": {
+    "input": "What sections of CSE2221 are still open?",
+    "label": "AVAILABLE-SEC"
+  },
+  "sample9": {
+    "input": "What topics does CSE2231 cover?",
+    "label": "TOPICS"
+  },
+  "sample10": {
+    "input": "What content does CSE2431 offer?",
+    "label": "TOPICS"
+  },
+  "sample11": {
+    "input": "What subject will be CSE5522 focusing on?",
+    "label": "TOPICS"
+  },
+  "sample12": {
+    "input": "What topics will be discussed in CSE5523?",
+    "label": "TOPICS"
+  },
+  "sample13": {
+    "input": "What concept will be taught in CSE5524?",
+    "label": "TOPICS"
+  },
+  "sample14": {
+    "input": "What area will CSE5525 cover?",
+    "label": "TOPICS"
+  },
+  "sample15": {
+    "input": "What backgrounds do I need to aquire before taking CSE2231?",
+    "label": "PREREQ"
+  },
+  "sample16": {
+    "input": "What courses are the pre-requisites of CSE3345?",
+    "label": "PREREQ"
+  },
+  "sample17": {
+    "input": "Are there any grade requirements on the courese I am taking before taking CSE3521?",
+    "label": "PREREQ"
+  },
+  "sample18": {
+    "input": "How do I prepare myself before taking CSE5525",
+    "label": "PREREQ"
+  },
+  "sample19": {
+    "input": "WHASTUP",
+    "label": "GREETING"
+  },
+  "sample20": {
+    "input": "How are you doing?",
+    "label": "GREETING"
+  },
+  "sample21": {
+    "input": "Nice to meet you.?",
+    "label": "GREETING"
+  },
+  "sample22": {
+    "input": "Good morning.",
+    "label": "GREETING"
+  },
+  "sample23": {
+    "input": "Good Afternoon.",
+    "label": "GREETING"
+  },
+  "sample24": {
+    "input": "Good Night.",
+    "label": "GOODBYE"
+  },
+  "sample25": {
+    "input": "Peace",
+    "label": "GOODBYE"
+  },
+  "sample26": {
+    "input": "I got to go",
+    "label": "GOODBYE"
+  },
+  "sample27": {
+    "input": "Catch you later!",
+    "label": "GOODBYE"
+  },
+  "sample28": {
+    "input": "What courses teach me how to program in Python?",
+    "label": "RELATED-COURSES"
+  },
+  "sample29": {
+    "input": "What courses are about security?",
+    "label": "RELATED-COURSES"
+  },
+  "sample30": {
+    "input": "What courses can prepare me for my internship?",
+    "label": "RELATED-COURSES"
+  },
+  "sample31": {
+    "input": "What courses will cover the cutting-edge technologies in AI?",
+    "label": "RELATED-COURSES"
+  },
+  "sample32": {
+    "input": "What courses will be on the basic data stuctures in algorithm?",
+    "label": "RELATED-COURSES"
+  },
+  "sample33": {
+    "input": "What are the courses that are covers similar topics compared to CSE3521?",
+    "label": "RELATED-COURSES"
+  },
+  "sample34": {
+    "input": "What are the best courses on distributed computing?",
+    "label": "RELATED-COURSES"
   }
+  
+
+
+
 }
