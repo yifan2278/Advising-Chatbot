@@ -142,5 +142,86 @@
     "topic": "Algorithm",
     "name": "Foundations II: Data Structures and Algorithms",
     "desc": "Design/analysis of algorithms and data structures; divide-and-conquer; sorting and selection, search trees, hashing, graph algorithms, string matching; probabilistic analysis; randomized algorithms; NP-completeness."
+  },
+  "course19": {
+    "num": "CSE1110",
+    "prereq": "Not open to students with credit for 1111 or 1113",
+    "track": "no specific track",
+    "topic": "Computers in society; word processing, Application software, The components of the system unit; spreadsheet application, Operating systems and utility programs, input and output devices, Database management; communications and networks",
+    "name": "Introduction to Computing Technology",
+    "desc": " A course of general interest giving experience with personal computer software, e.g., word processors and spreadsheets; provides fundamental computer literacy; neither teaches nor requires programming."
+  },
+  "course20": {
+    "num": "CSE1111",
+    "prereq": "Not open to students with credit for 1112 (105), 1113 (101), or 200. GE quant reason math and logical anly course",
+    "track": "no specific track",
+    "topic": "Computer basics, Excel, simple webpage",
+    "name": "Introduction to Computer-Assisted Problem Solving",
+    "desc": "Problem solving techniques using productivity software; spreadsheets, formulas, conditional logic; relational databases, relational algebra; word processing; data presentation; graphics."
+  },
+  "course21": {
+    "num": "CSE1112",
+    "prereq": "Not open to students with credit for 1111 (101), 1113, 105, or 200. ",
+    "track": "no specific track",
+    "topic": "Computer basics, Excel, simple webpage, powerpoint",
+    "name": "Introduction to Computer-Assisted Problem Solving for Construction Systems Management",
+    "desc": "Using productivity software, especially spreadsheets and databases, to solve problems for construction management; relative/absolute cell referencing, logic, functions; relational databases, querying, project integration."
+  },
+  "course22": {
+    "num": "CSE1113",
+    "prereq": "Math 1130 (130) or above. Not open to students with credit for 1111 (101), 1112 (105), 2111, or 200.",
+    "track": "no specific track",
+    "topic": "functions, database concept, writing formulas",
+    "name": "Spreadsheet Programming for Business",
+    "desc": "Spreadsheet modeling/programming concepts and techniques to solve business related problems; efficient/effective data handling, computational analysis and decision support."
+  },
+  "course23": {
+    "num": "CSE1114",
+    "prereq": "Not open to students with credit for 1111, 1112, or 2111.",
+    "track": "no specific track",
+    "topic": "Relational database management systems, Table Relationships, Use the query tool to find/organize information, Access Macros, SQL, Forms and Reports",
+    "name": "Introduction to Databases Using MS Access",
+    "desc": "Database concepts and techniques for efficient/effective data handling, computational analysis and decision support."
+  },
+  "course24": {
+    "num": "CSE1211",
+    "prereq": "Not open to students with credit for 203 or 204. ",
+    "track": "no specific track",
+    "topic": "Software installation, and basic concepts, intro to programming with media, images, colors, encodings, Loops, new definitions, simple image manipulations, Nested loops, conditionals, Boolean expressions, advanced image manipulations, Sequencing, iteration, and drawing,",
+    "name": "Computational Thinking in Context: Images, Animation, and Games",
+    "desc": "Introduction to computational thinking, focusing on problem solving and programming concepts and skills needed to manipulate digital images and to create interactive graphics, animations, and games; creativity and imagination encouraged."
+  },
+  "course25": {
+    "num": "CSE1213",
+    "prereq": "",
+    "track": "no specific track",
+    "topic": "Basic concepts of video games, Introduction to programming for web-based games, Loops, new definitions, simple controls, Conditionals, Boolean expressions, advanced controls",
+    "name": "Computational Thinking in Context: Game Development",
+    "desc": "Introduction to computational thinking, focusing on problem solving and programming concepts and skills needed to develop video games."
+  },
+  "course26": {
+    "num": "CSE1222",
+    "prereq": "Concur:Math 1151, 1154, or 1161. Not open to students with credit for Engr 1281.01 or 1281.02. This course is available for EM credit.",
+    "track": "no specific track",
+    "topic": "C++, loop, method, pointer, structure, c++ array, c++ string",
+    "name": "Introduction to Computer Programming in C++ for Engineers and Scientists",
+    "desc": "Introduction to computer programming and to problem solving techniques using computer programs with applications in engineering and the physical sciences; algorithm development; programming lab experience."
+  },
+  "course27": {
+    "num": "CSE1223",
+    "prereq": "Math 1130, 1140, 1149, 1150, or 1151, or Math Placement Level L. This course is available for EM credit. ",
+    "track": "no specific track",
+    "topic": "Basic concepts, Primitive types and expressions; String; basic I/O, Flow of control and Boolean expressions, Defining methods, Arrays, Basic exception handling and standard Java I/O, Classes and objects",
+    "name": "Introduction to Computer Programming in Java",
+    "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience."
+  },
+  "course28": {
+    "num": "CSE1224",
+    "prereq": "Math 1130, 1140, 1149, 1150, or 1151, or Math Placement Level L.",
+    "track": "no specific track",
+    "topic": "Expressions and Types; basic I/O, Lists, Tuples and Dictionaries, Flow of control and Boolean expressions, Defining functions, File I/O, Classes and objects ",
+    "name": "Introduction to Computer Programming in Python",
+    "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience."
   }
+
 }
