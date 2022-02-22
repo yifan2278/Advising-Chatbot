@@ -106,15 +106,15 @@ if __name__ == '__main__':
 
     optimizer = nlp.begin_training()
     losses = {}
-    for i in range(10):
+    for i in range(3):
         print(i)
         random.shuffle(DATA)
         for batch in spacy.util.minibatch(DATA, size=8):
             for text, annotations in batch:
                 doc = nlp.make_doc(text)
                 example = Example.from_dict(doc, annotations)
-                nlp.update([example], sgd=optimizer, losses=losses, drop=0.3)
-    print(losses)
+                nlp.update([example], sgd=optimizer, losses=losses, drop=0.2)
+        print(losses)
 
     doc = nlp(u"Available sections of ece 2020")
     print(doc.ents)
@@ -126,8 +126,12 @@ if __name__ == '__main__':
     print(doc.ents)
     doc = nlp(u"Available sections of ise 7200")
     print(doc.ents)
+    doc = nlp(u"Available sections of math 7200")
+    print(doc.ents)
+    doc = nlp(u"Available sections of chem 7200")
+    print(doc.ents)
 
     # # save model
-    # nlp.to_disk('./ner_course/')
+    # nlp.to_disk('./ner/ner_course/')
     # # load the saved model
     # nlp = spacy.load(output_dir)
