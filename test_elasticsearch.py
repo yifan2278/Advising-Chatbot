@@ -1,7 +1,6 @@
 import requests
 import time
 
-
 # add data
 headers = {
     'accept': 'application/json',
