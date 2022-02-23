@@ -8,6 +8,23 @@ A chatbot capable of answering basic frequenly asked CSE advising questions.
 
 [test_elasticsearch.py](test_elasticsearch.py) gives an example of using  [Elasticsearch](https://www.elastic.co/downloads/elasticsearch). Download Elasticsearch on the website. Run bin\elasticsearch.bat. Run [test_elasticsearch.py](test_elasticsearch.py).
 
+## Getting Started
+1. Run Python server inside the backend directory (port 8000)
+```
+python3 ./backend/server.py
+```
+2. Install dependencies and run Angular frontend inside the frontend directory (port 4200)
+```
+cd frontend
+npm install
+ng serve
+```
+3. Run Elastic Search version 7.12.1. as database (port 9200)
+```
+docker run --name elasticsearch -d -p 9200:9200 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.12.1
+```
+
+
 ## Pipeline
 
 1. Read user input
