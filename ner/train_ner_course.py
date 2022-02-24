@@ -131,7 +131,7 @@ if __name__ == '__main__':
     doc = nlp(u"Available sections of chem 7200")
     print(doc.ents)
 
-    # # save model
+    # save model
     # nlp.to_disk('./ner/ner_course/')
     # # load the saved model
     # nlp = spacy.load(output_dir)
