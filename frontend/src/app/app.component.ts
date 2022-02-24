@@ -11,16 +11,19 @@ export class AppComponent {
     msgs = [["Nice to meet you!", "User"],["Hello!","Bot"],["Who are you?", "User"],["I am an advising chatbot.","Bot"]]
     postId = ""
     constructor(private http: HttpClient){}
+
     ngOnInit(): void {
     }
     
     onGoToSubmit() {
+
       this.msgs.push([this.inp, "User"])
-      this.inp = ""
-      this.http.post<any>('https://google.com', { title: 'Angular POST Request Example' }).subscribe(data => {
-        this.postId = data.id;
+      this.http.post("http://localhost:8000",this.inp,{responseType: 'text'}).subscribe(data => {
+        console.log(data)
+        this.msgs.push([data, 'Bot'])
       })
-      console.log(this.postId)
+      this.inp = ""
+      
     }
 
 
