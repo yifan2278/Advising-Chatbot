@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\data",
+    "\\kb"
   ],
+  "SelectedNode": "\\data",
   "PreviewInSolutionExplorer": false
 }
