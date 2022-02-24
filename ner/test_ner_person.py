@@ -1,6 +1,4 @@
 import spacy
-from spacy.training import Example
-import random
 
 nlp = spacy.load("en_core_web_sm")
 
