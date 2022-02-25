@@ -53,7 +53,7 @@ docker run --name elasticsearch -d -p 9200:9200 -e "discovery.type=single-node" 
 * ~~TRACK (e.g., AI, Database)~~
 * **TODO**
 
-**Note: Data format must match that in [test_spaCy.py](test_spaCy.py).**
+**Note: Data format must match that in [train_ner_course.py](./ner/train_ner_course.py).**
 
 ## Search KB for Answer
 
