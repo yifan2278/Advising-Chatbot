@@ -1,11 +1,11 @@
 import json
-import requests, sys
+import requests, sys, os
 
 
-# with open('user_data.json', 'r') as f:
+# with open('./data/user_data.json', 'r') as f:
 #     user_data_str = f.read()
 # data = json.loads(user_data_str)
-# with open('user_data_preprocessed.json', 'w+') as f:
+# with open('./data/user_data_preprocessed.json', 'w+') as f:
 #     f.write('[\n')
 #     i = 0
 #     for sample in data:
@@ -25,14 +25,12 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-# with open('user_data_preprocessed.json', 'r') as f:
-#     train_data = f.read()
-
-# # print(train_data)
-# train_url = "http://localhost:8081/languageclassifier/data/CHATBOT"
-# train_r = requests.post(train_url, data=train_data, headers=headers)
-# print(train_r)
-# print(train_r.json())
+with open('./data/user_data_preprocessed.json', 'r') as f:
+    train_data = f.read()
+train_url = "http://localhost:8081/languageclassifier/data/CHATBOT"
+train_r = requests.post(train_url, data=train_data, headers=headers)
+print(train_r)
+print(train_r.json())
 
 model_url = "http://localhost:8081/model/CHATBOT"
 model_data = "{  \"model_name\": \"thisisamodelname\"}"
