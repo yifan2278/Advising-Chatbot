@@ -2,12 +2,6 @@
 
 A chatbot capable of answering basic frequenly asked CSE advising questions.
 
-[test_NLPC.py](test_NLPC.py) gives an example of using [NLPC](https://github.com/osu-cse-5914/natural-language-processing-classifier) in Python. Clone [NLPC](https://github.com/osu-cse-5914/natural-language-processing-classifier), run start.py, and run [test_NLPC.py](test_NLPC.py).
-
-[test_spaCy.py](test_spaCy.py) gives an example of using  [spaCy](https://spacy.io/usage/training#training-data) to extract named entities. Here, it extracts the course number (e.g., CSE 5914).
-
-[test_elasticsearch.py](test_elasticsearch.py) gives an example of using  [Elasticsearch](https://www.elastic.co/downloads/elasticsearch). Download Elasticsearch on the website. Run bin\elasticsearch.bat. Run [test_elasticsearch.py](test_elasticsearch.py).
-
 ## Getting Started
 1. Run Python server inside the backend directory (port 8000)
 ```
