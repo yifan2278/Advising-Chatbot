@@ -25,12 +25,12 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-with open('./data/user_data_preprocessed.json', 'r') as f:
-    train_data = f.read()
-train_url = "http://localhost:8081/languageclassifier/data/CHATBOT"
-train_r = requests.post(train_url, data=train_data, headers=headers)
-print(train_r)
-print(train_r.json())
+# with open('./data/user_data_preprocessed.json', 'r') as f:
+#     train_data = f.read()
+# train_url = "http://localhost:8081/languageclassifier/data/CHATBOT"
+# train_r = requests.post(train_url, data=train_data, headers=headers)
+# print(train_r)
+# print(train_r.json())
 
 model_url = "http://localhost:8081/model/CHATBOT"
 model_data = "{  \"model_name\": \"thisisamodelname\"}"
@@ -38,11 +38,11 @@ r = requests.post(model_url, data=model_data, headers=headers)
 print(r.json())
 
 pred_url = "http://localhost:8081/languageclassifier/data/CHATBOT/{}".format(r.json())
-pred_data = '''[  "Show me the classes related to AI",
-                "Who teaches cse 5914",
-                "What is cse5914 about",
-                "Go Bucks!!!!!!!!!!!!!",
-                "The quick brown fox jumps over the lazy dog",
+pred_data = '''[  "show me the classes related to ai",
+                "who teaches cse 5914",
+                "what is cse5914 about",
+                "go Bucks!!!!!!!!!!!!!",
+                "the quick brown fox jumps over the lazy dog",
                 "mocha"]'''
 pred_r = requests.post(pred_url, data=pred_data, headers=headers)
 print(pred_r.json())
