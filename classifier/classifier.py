@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, BaggingClassifier
 from sklearn.svm import SVC
-import json, sys
+import json, sys, pickle
 
 
 with open('./data/user_data_preprocessed.json', 'r') as f:
@@ -64,9 +64,10 @@ for p in text_clf.predict_proba(pred_data):
         y_pred.append(text_clf.classes_[np.argmax(p)])
 print(y_pred)
 
-import pickle
+print(text_clf.score(X, y))
 
-# with open('./classifer/clf.pkl', 'wb') as f:
+
+# with open('./classifier/clf.pkl', 'wb') as f:
 #     pickle.dump(text_clf, f)
 
 # and later you can load it
