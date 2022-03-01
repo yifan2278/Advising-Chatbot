@@ -67,8 +67,8 @@ print(y_pred)
 print(text_clf.score(X, y))
 
 
-# with open('./classifier/clf.pkl', 'wb') as f:
-#     pickle.dump(text_clf, f)
+with open('./classifier/clf.pkl', 'wb') as f:
+    pickle.dump(text_clf, f)
 
 # and later you can load it
 # with open('./classifier/clf.pkl', 'rb') as f:
