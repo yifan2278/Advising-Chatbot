@@ -1,0 +1,12 @@
+{
+  "course1": 
+    {
+      "num": "CSE5914",
+      "prereq": "3521 or 5521, and 2501 or Phil 1338, and CSE 3901 or 3902 or 3903, and 2nd writing; or grad standing.",
+      "track": "Artificial intelligence (AI)",
+      "topic": "AI, knowledge-base, project",
+      "name": "Capstone Design: Knowledge-Based Systems",
+      "desc": "Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills."
+    }
+  
+}
