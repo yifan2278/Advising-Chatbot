@@ -5,10 +5,6 @@ import json
 from elasticsearch import Elasticsearch
 import logging
 #set up path
-directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data'
-
-
-
 
 # search in the KB
 def connect_elasticsearch():
@@ -53,7 +49,7 @@ def create_index(es_object, index_name = 'classes'):
 def load_data(es, directory):
     i = 1
     for filename in os.listdir(directory):
-       if filename.endswith('course_data1.json'):
+       if filename.endswith('course_data.json'):
              f = open(directory+'/'+filename)
              docket_content = f.read()
              es.index(index = 'classes', ignore =400, id = i, body = json.loads(docket_content))
@@ -62,7 +58,7 @@ def search (es_object, index_name, search):
     res = es_object.search(index = index_name, body = search)
 
 if __name__ == '__main__':
-    directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data'
+    directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
 #connect to es
     logging.basicConfig(level=logging.ERROR)
     es = connect_elasticsearch()
