@@ -57,7 +57,7 @@ def load_data(es, directory):
              f = open(directory+'/'+filename)
              docket_content = f.read()
              es.index(index = 'classes', ignore =400, id = i, body = json.loads(docket_content))
-    i = i+1
+       i = i+1
 def search (es_object, index_name, search):
     res = es_object.search(index = index_name, body = search)
 
@@ -78,6 +78,8 @@ if __name__ == '__main__':
                } }
         res =search(es, 'classes',search_object)
         print(res)
+    # delete index
+    es.delete(index = 'classes',id = 1,ignore=[400, 404])
 
 
 
