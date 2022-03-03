@@ -56,13 +56,13 @@ text_clf.fit(X, y)
 print(text_clf.predict(pred_data))
 print(np.max(text_clf.predict_proba(pred_data), axis=1))
 
-y_pred = []
-for p in text_clf.predict_proba(pred_data):
-    if np.max(p) < 0.2:
-        y_pred.append('GREETING')
-    else:
-        y_pred.append(text_clf.classes_[np.argmax(p)])
-print(y_pred)
+# y_pred = []
+# for p in text_clf.predict_proba(pred_data):
+#     if np.max(p) < 0.2:
+#         y_pred.append('GREETING')
+#     else:
+#         y_pred.append(text_clf.classes_[np.argmax(p)])
+# print(y_pred)
 
 print(text_clf.score(X, y))
 
