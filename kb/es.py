@@ -50,26 +50,27 @@ def create_index(es_object, index_name = 'classes'):
     finally:
         return created
 
-def search (es_object, index_name, search):
-    res = es_object.search(index = index_name, body = search)
-if __name__ == '__main__':
-    directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data'
+def load_data(es, directory):
     i = 1
-# load json file to elastic search
-
-    logging.basicConfig(level=logging.ERROR)
-    es = connect_elasticsearch()
-    init_index = create_index(es)
-    if not init_index:
-        print('Error: fail to create index')
-
-
     for filename in os.listdir(directory):
        if filename.endswith('course_data1.json'):
              f = open(directory+'/'+filename)
              docket_content = f.read()
              es.index(index = 'classes', ignore =400, id = i, body = json.loads(docket_content))
     i = i+1
+def search (es_object, index_name, search):
+    res = es_object.search(index = index_name, body = search)
+
+if __name__ == '__main__':
+    directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data'
+#connect to es
+    logging.basicConfig(level=logging.ERROR)
+    es = connect_elasticsearch()
+    init_index = create_index(es)
+    if not init_index:
+        print('Error: fail to create index')
+# load json file to elastic search
+    load_data(es, directory )
     if es is not None:
         search_object = {
             "query":{
