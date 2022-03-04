@@ -35,7 +35,7 @@ if __name__ == '__main__':
     with open('./classifier/clf.pkl', 'rb') as f:
         clf = pickle.load(f)
     ner_class = spacy.load('./ner/ner_course/')
-    ner_person = spacy.load("en_core_web_sm")
+    ner_person = spacy.load('./ner/ner_person/')
 
     q = input('Hello!\n').lower()
     q_class = get_class(clf, q)
