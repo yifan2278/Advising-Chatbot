@@ -47,13 +47,15 @@ def create_index(es_object, index_name = 'classes'):
         return created
 
 def load_data(es, directory):
-    i = 1
-    for filename in os.listdir(directory):
-       if filename.endswith('course_data.json'):
-             f = open(directory+'/'+filename)
-             docket_content = f.read()
-             es.index(index = 'classes', ignore =400, id = i, body = json.loads(docket_content))
-       i = i+1
+    f = open(directory)
+    course_data = json.load(f)
+    
+    for i in range(len(course_data)):
+        name = "course" + str(i+1)
+        data = course_data[name]
+        es.index(index = 'classes', ignore = 400, id = i+1, body = json.dumps(data))
+
+        
 def search (es_object, index_name, search):
     res = es_object.search(index = index_name, body = search)
 
@@ -62,20 +64,30 @@ if __name__ == '__main__':
 #connect to es
     logging.basicConfig(level=logging.ERROR)
     es = connect_elasticsearch()
-    init_index = create_index(es)
-    if not init_index:
-        print('Error: fail to create index')
+#    init_index = create_index(es)
+#    if not init_index:
+#        print('Error: fail to create index')
 # load json file to elastic search
-    load_data(es, directory )
+    f = open(directory)
+    course_data = json.load(f)
+    
+    for i in range(len(course_data)):
+        name = "course" + str(i+1)
+        data = course_data[name]
+        es.index(index = 'classes', id = i+1, body= json.dumps(data))
+    #load_data(es, directory )
     if es is not None:
         search_object = {
             "query":{
                 "match_all":{}
                } }
-        res =search(es, 'classes',search_object)
-        print(res)
-    # delete index
-    es.delete(index = 'classes',id = 1,ignore=[400, 404])
+        #res =search(es, 'classes',search_object)
+        #print(res)
+    
+    print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
+    # Delete all the local data in es
+    print(requests.delete(url='http://localhost:9200/_all').json())
+    # Todo: find the way to use es.delete to delete all index
 
 
 
