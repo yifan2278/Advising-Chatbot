@@ -58,6 +58,7 @@ def load_data(es, directory):
         
 def search (es_object, index_name, search):
     res = es_object.search(index = index_name, body = search)
+    return res
 
 if __name__ == '__main__':
     directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
@@ -74,20 +75,27 @@ if __name__ == '__main__':
     for i in range(len(course_data)):
         name = "course" + str(i+1)
         data = course_data[name]
-        es.index(index = 'classes', id = i+1, body= json.dumps(data))
+        es.index(index = 'classes',ignore =400, id = i+1, body= json.dumps(data))
     #load_data(es, directory )
     if es is not None:
         search_object = {
             "query":{
-                "match_all":{}
+                'match':{
+                    'num':'cse5914'
+
+                }
+                
                } }
-        #res =search(es, 'classes',search_object)
-        #print(res)
-    
-    print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
+        res =search(es, 'classes',search_object)
+        print(res)
+    es.indices.delete(index = 'classes')
+    #result =search(es, 'classes',search_object)
+    #print(result)
+    #print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
+    #print(requests.delete(url='http://localhost:9200/_all').json())
     # Delete all the local data in es
-    print(requests.delete(url='http://localhost:9200/_all').json())
-    # Todo: find the way to use es.delete to delete all index
+ 
+
 
 
 
