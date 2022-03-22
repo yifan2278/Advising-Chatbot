@@ -1,4 +1,4 @@
-import requests
+
 import time
 import os
 import json
@@ -59,6 +59,10 @@ def load_data(es, directory):
 def search (es_object, index_name, search):
     res = es_object.search(index = index_name, body = search)
     return res
+def read_input(filename):
+    pass
+def delete_index (es_object, index_name):
+    es_object.indices.delete(index = index_name)
 
 if __name__ == '__main__':
     directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
@@ -69,14 +73,14 @@ if __name__ == '__main__':
 #    if not init_index:
 #        print('Error: fail to create index')
 # load json file to elastic search
-    f = open(directory)
-    course_data = json.load(f)
+    # f = open(directory)
+    # course_data = json.load(f)
     
-    for i in range(len(course_data)):
-        name = "course" + str(i+1)
-        data = course_data[name]
-        es.index(index = 'classes',ignore =400, id = i+1, body= json.dumps(data))
-    #load_data(es, directory )
+    # for i in range(len(course_data)):
+    #     name = "course" + str(i+1)
+    #     data = course_data[name]
+    #     es.index(index = 'classes',ignore =400, id = i+1, body= json.dumps(data))
+    load_data(es, directory )
     if es is not None:
         search_object = {
             "query":{
@@ -88,7 +92,7 @@ if __name__ == '__main__':
                } }
         res =search(es, 'classes',search_object)
         print(res)
-    es.indices.delete(index = 'classes')
+    delete_index(es, "classes")
     #result =search(es, 'classes',search_object)
     #print(result)
     #print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
