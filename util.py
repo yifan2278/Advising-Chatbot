@@ -15,7 +15,10 @@ def get_class(clf, q):
 
 
 def get_course_entity(ner_class, q):
-    return ner_class(q).ents[0]
+    try:
+        return ner_class(q).ents[0]
+    except:
+        return None
 
 
 def get_person_entity(ner_person, q):
