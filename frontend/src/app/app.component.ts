@@ -19,7 +19,7 @@ export class AppComponent {
 
       this.msgs.push([this.inp, "User"])
       this.http.post("http://localhost:8000",this.inp,{responseType: 'text'}).subscribe(data => {
-        console.log(data)
+        console.log("Response from server "+ data)
         this.msgs.push([data, 'Bot'])
       })
       this.inp = ""
