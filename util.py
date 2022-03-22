@@ -15,7 +15,10 @@ def get_class(clf, q):
 
 
 def get_course_entity(ner_class, q):
-    return ner_class(q).ents[0]
+    try:
+        return ner_class(q).ents[0]
+    except:
+        return None
 
 
 def get_person_entity(ner_person, q):
@@ -28,10 +31,6 @@ def get_person_entity(ner_person, q):
 
 
 def main():
-    pass
-
-
-if __name__ == '__main__':
     with open('./classifier/clf.pkl', 'rb') as f:
         clf = pickle.load(f)
     ner_class = spacy.load('./ner/ner_course/')
@@ -71,3 +70,7 @@ if __name__ == '__main__':
         q_class = get_class(clf, q)
 
     print('Goodbye!')
+
+
+if __name__ == '__main__':
+    main()

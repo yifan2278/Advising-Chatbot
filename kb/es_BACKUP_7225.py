@@ -72,19 +72,17 @@ def read_input(filename):
 def delete_index(es_object, index_name):
     es_object.indices.delete(index=index_name)
 
-
-def search(es_object, index_name, search):
-    res = es_object.search(index=index_name, body=search)
+<<<<<<< HEAD
+=======
+        
+def search (es_object, index_name, search):
+    res = es_object.search(index = index_name, body = search)
     return res
-
-
 def read_input(filename):
     pass
-
-
-def delete_index(es_object, index_name):
-    es_object.indices.delete(index=index_name)
-
+def delete_index (es_object, index_name):
+    es_object.indices.delete(index = index_name)
+>>>>>>> deb4e9f6fef4f919e44d2bc6b7ca3c9c1486da92
 
 if __name__ == '__main__':
     directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
@@ -97,16 +95,47 @@ if __name__ == '__main__':
 # load json file to elastic search
     # f = open(directory)
     # course_data = json.load(f)
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> deb4e9f6fef4f919e44d2bc6b7ca3c9c1486da92
     # for i in range(len(course_data)):
     #     name = "course" + str(i+1)
     #     data = course_data[name]
     #     es.index(index = 'classes',ignore =400, id = i+1, body= json.dumps(data))
+<<<<<<< HEAD
     load_data(es, directory)
     if es is not None:
         search_object = {
             "query": {
                 'match': {
                     'num': 'cse5914'
+=======
+    load_data(es, directory )
+    if es is not None:
+        search_object = {
+            "query":{
+                'match':{
+                    'num':'cse5914'
+
+                }
+                
+               } }
+        res =search(es, 'classes',search_object)
+        print(res)
+    delete_index(es, "classes")
+    #result =search(es, 'classes',search_object)
+    #print(result)
+    #print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
+    #print(requests.delete(url='http://localhost:9200/_all').json())
+    # Delete all the local data in es
+ 
+
+
+
+
+>>>>>>> deb4e9f6fef4f919e44d2bc6b7ca3c9c1486da92
 
                 }
 

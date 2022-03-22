@@ -73,19 +73,6 @@ def delete_index(es_object, index_name):
     es_object.indices.delete(index=index_name)
 
 
-def search(es_object, index_name, search):
-    res = es_object.search(index=index_name, body=search)
-    return res
-
-
-def read_input(filename):
-    pass
-
-
-def delete_index(es_object, index_name):
-    es_object.indices.delete(index=index_name)
-
-
 if __name__ == '__main__':
     directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
 # connect to es
@@ -97,6 +84,7 @@ if __name__ == '__main__':
 # load json file to elastic search
     # f = open(directory)
     # course_data = json.load(f)
+
     # for i in range(len(course_data)):
     #     name = "course" + str(i+1)
     #     data = course_data[name]
