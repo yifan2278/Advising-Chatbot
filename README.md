@@ -11,7 +11,7 @@ python3 ./backend/server.py
 ```
 cd frontend
 npm install
-ng serve
+ng serve ("npm run ng serve" for Win)
 ```
 3. Run Elastic Search version 7.12.1. as database (port 9200)
 ```
