@@ -113,7 +113,7 @@ if __name__ == '__main__':
             }}
         res = search(es, 'classes', search_object)
         print(res)
-    delete_index(es, "classes")
+    # delete_index(es, "classes")
     #result =search(es, 'classes',search_object)
     # print(result)
     # print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
