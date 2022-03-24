@@ -1,20 +1,25 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<div class = "top"></div>
+<div class = "container-lg">
 <div class ="scroller">
 <div class = "chat" *ngFor="let m of msgs">
-  <img *ngIf="m[1]==='Bot'; else elseBlock"src="../assets/bot3.jpeg" alt="profile-img" />
+  <div class = "bot" *ngIf="m[1]==='Bot'; else elseBlock">
+  <p><img src="../assets/bot3.jpeg" alt="profile-img" />&nbsp;&nbsp;&nbsp;{{ m[0] }}</p>
+  </div>
   <ng-template #elseBlock>
-    <img src="../assets/user3.jpeg" alt="profile-img" />
+    <div class = "user">
+    <p>{{ m[0] }}&nbsp;&nbsp;&nbsp;<img src="../assets/user3.jpeg" alt="profile-img" /></p>
+    </div>
   </ng-template>
-  <p><b>{{ m[1] }}</b>:  {{ m[0] }}</p>
 </div>
 </div>
-<div class = "bottom"></div>
-
+</div>
 <form>
 <label for="msg">Enter a message for the bot:</label><br>
+<br>
 <input type="text" id="msg" name="msg" value="Hello World" [(ngModel)]='inp'>
+<br>
+<br>
 <button class="btn btn-primary" type="submit" (click)="onGoToSubmit()">Submit</button>
 </form>
- 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

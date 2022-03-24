@@ -4,9 +4,11 @@ import os
 import json
 from elasticsearch import Elasticsearch
 import logging
-#set up path
+# set up path
 
 # search in the KB
+
+
 def connect_elasticsearch():
     _es = None
     _es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
@@ -17,28 +19,29 @@ def connect_elasticsearch():
     return _es
 
 
-def create_index(es_object, index_name = 'classes'):
+def create_index(es_object, index_name='classes'):
     created = False
-    #index settings
+    # index settings
     settings = {
         "settings": {
             "number_of_shards": 1,
             "number_of_replicas": 1
         },
-        "mappings":{
-            'cse':{
-                'properties':{
-                    "num":{'type':'text'},
-                    'prereq':{'type':'text'},
-                    'track':{'type':'text'},
-                    'topic':{'type':'text'},
-                    'name':{'type':'text'},
-                    'desc':{'type':'text'},
-                    }}}}
+        "mappings": {
+            'cse': {
+                'properties': {
+                    "num": {'type': 'text'},
+                    'prereq': {'type': 'text'},
+                    'track': {'type': 'text'},
+                    'topic': {'type': 'text'},
+                    'name': {'type': 'text'},
+                    'desc': {'type': 'text'},
+                }}}}
     try:
         if not es_object.indices.exists(index_name):
             # Ignore 400 means to ignore "Index Already Exist" error.
-            es_object.indices.create(index=index_name, ignore=400, body=settings)
+            es_object.indices.create(
+                index=index_name, ignore=400, body=settings)
             print('Created Index')
         created = True
     except Exception as ex:
@@ -46,14 +49,15 @@ def create_index(es_object, index_name = 'classes'):
     finally:
         return created
 
+
 def load_data(es, directory):
     f = open(directory)
     course_data = json.load(f)
-    
+
     for i in range(len(course_data)):
         name = "course" + str(i+1)
         data = course_data[name]
-        es.index(index = 'classes', ignore = 400, id = i+1, body = json.dumps(data))
+        es.index(index='classes', ignore=400, id=i+1, body=json.dumps(data))
 
         
 def search (es_object, index_name, search_object):
@@ -69,12 +73,28 @@ def search (es_object, index_name, search_object):
     return res
 
     pass
-def delete_index (es_object, index_name):
-    es_object.indices.delete(index = index_name)
+
+
+def delete_index(es_object, index_name):
+    es_object.indices.delete(index=index_name)
+
+
+def search(es_object, index_name, search):
+    res = es_object.search(index=index_name, body=search)
+    return res
+
+
+def read_input(filename):
+    pass
+
+
+def delete_index(es_object, index_name):
+    es_object.indices.delete(index=index_name)
+
 
 if __name__ == '__main__':
-    directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
-#connect to es
+    directory = 'data/course_data.json'
+# connect to es
     logging.basicConfig(level=logging.ERROR)
     es = connect_elasticsearch()
 #    init_index = create_index(es)
@@ -83,12 +103,11 @@ if __name__ == '__main__':
 # load json file to elastic search
     # f = open(directory)
     # course_data = json.load(f)
-    
     # for i in range(len(course_data)):
     #     name = "course" + str(i+1)
     #     data = course_data[name]
     #     es.index(index = 'classes',ignore =400, id = i+1, body= json.dumps(data))
-    load_data(es, directory )
+    load_data(es, directory)
     if es is not None:
         
         search_object = "cse5914"
@@ -96,14 +115,7 @@ if __name__ == '__main__':
         print(res)
     #delete_index(es, "classes")
     #result =search(es, 'classes',search_object)
-    #print(result)
-    #print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
-    #print(requests.delete(url='http://localhost:9200/_all').json())
+    # print(result)
+    # print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
+    # print(requests.delete(url='http://localhost:9200/_all').json())
     # Delete all the local data in es
- 
-
-
-
-
-
-
