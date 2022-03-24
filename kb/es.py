@@ -59,13 +59,19 @@ def load_data(es, directory):
         data = course_data[name]
         es.index(index='classes', ignore=400, id=i+1, body=json.dumps(data))
 
-
-def search(es_object, index_name, search):
-    res = es_object.search(index=index_name, body=search)
+        
+def search (es_object, index_name, search_object):
+    search = {
+            "query":{
+                "multi_match":{
+                    "query":search_object,
+                    'fields':[]
+                }
+                
+               } }    
+    res = es_object.search(index = index_name, body = search)
     return res
 
-
-def read_input(filename):
     pass
 
 
@@ -73,9 +79,6 @@ def delete_index(es_object, index_name):
     es_object.indices.delete(index=index_name)
 
 
-def search(es_object, index_name, search):
-    res = es_object.search(index=index_name, body=search)
-    return res
 
 
 def read_input(filename):
@@ -103,17 +106,11 @@ if __name__ == '__main__':
     #     es.index(index = 'classes',ignore =400, id = i+1, body= json.dumps(data))
     load_data(es, directory)
     if es is not None:
-        search_object = {
-            "query": {
-                'match': {
-                    'num': 'cse5914'
-
-                }
-
-            }}
-        res = search(es, 'classes', search_object)
+        
+        search_object = "cse5914"
+        res =search(es, 'classes',search_object)
         print(res)
-    delete_index(es, "classes")
+    #delete_index(es, "classes")
     #result =search(es, 'classes',search_object)
     # print(result)
     # print(requests.get(url='http://localhost:9200/classes/_search?q=num:cse5914').json())
