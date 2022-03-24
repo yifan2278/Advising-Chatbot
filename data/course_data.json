@@ -224,7 +224,7 @@
     "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience."
   },
   "course29": {
-    "num": "2021",
+    "num": "CSE2021",
     "prereq": "Math 1151 (152) or equivalent, and Physics 1250 (131). Not open to students with credit for 1221 or Engr 1221.",
     "track": "no specific track",
     "topic": "Introduction to modeling; modeling concepts and definitions, Introduction to MATLAB, scripts, MATLAB arrays, array math, MATLAB programming mechanisms, MATLAB i/0, Advanced graphing in MATLAB; curve fitting, Linear models, Nonlinear functions; modeling examples, Stochastic models",
