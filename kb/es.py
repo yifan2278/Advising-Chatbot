@@ -87,7 +87,7 @@ def delete_index(es_object, index_name):
 
 
 if __name__ == '__main__':
-    directory = 'C:/Users/123456/Source/Repos/Advising-Chatbot/data/course_data.json'
+    directory = 'data/course_data.json'
 # connect to es
     logging.basicConfig(level=logging.ERROR)
     es = connect_elasticsearch()
