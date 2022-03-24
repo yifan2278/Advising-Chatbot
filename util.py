@@ -2,6 +2,7 @@ import requests
 import spacy
 import pickle
 import numpy as np
+import kb.elasticsearch as es
 
 
 def get_class(clf, q):
@@ -16,7 +17,7 @@ def get_class(clf, q):
 
 def get_course_entity(ner_class, q):
     try:
-        return ner_class(q).ents[0]
+        return str(ner_class(q).ents[0])
     except:
         return None
 
@@ -35,25 +36,30 @@ def main():
         clf = pickle.load(f)
     ner_class = spacy.load('./ner/ner_course/')
     ner_person = spacy.load('./ner/ner_person/')
+    
+    es.deleteData()
+    es.load_data()
 
     q = input('Hello!\n')
     q_class = get_class(clf, q)
-    while True:#q_class != 'GOODBYE':
+    while q_class != 'GOODBYE':
         if q_class == 'GREETING':
             print('Hi')
         elif q_class == 'PREREQ':
             class_num = get_course_entity(ner_class, q.lower())
             print('entity:', class_num)
+            es.search(class_num, 'prereq')
         elif q_class == 'SIMILAR-COURSES':
             class_num = get_course_entity(ner_class, q.lower())
             print('entity:', class_num)
         elif q_class == 'RELATED-COURSES-AI':
-            pass
+            search('Artificial intelligence', tag='num', attr='track')
         elif q_class == 'RELATED-COURSES-PYTHON':
             pass
         elif q_class == 'TOPICS':
             class_num = get_course_entity(ner_class, q.lower())
             print('entity:', class_num)
+            es.search(class_num, 'topic')
         elif q_class == 'WHO-TEACH':
             class_num = get_course_entity(ner_class, q.lower())
             print('entity:', class_num)
@@ -70,6 +76,8 @@ def main():
         q_class = get_class(clf, q)
 
     print('Goodbye!')
+    
+    es.deleteData()
 
 
 if __name__ == '__main__':
