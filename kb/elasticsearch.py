@@ -23,11 +23,11 @@ def load_data():
     print('ES: Done!')
 
 
-def search(entity, tag=''):
+def search(entity, tag='', attr='num'):
     entity = entity.upper()
     tag = tag.lower()
     temp = requests.get(url='http://localhost:9200/course/_search',
-                        data='{ "query": { "match" : { "num": { "query": "' + entity + '", "fuzziness": "2" } } } }',
+                        data='{ "query": { "match" : { "' + attr + '": { "query": "' + entity + '", "fuzziness": "2" } } } }',
                         headers=headers).json()
     hits1 = temp['hits']
     hits2 = hits1['hits']
@@ -66,5 +66,8 @@ def search(entity, tag=''):
 def deleteData():
     print(requests.delete(url='http://localhost:9200/_all').json())
 
-
-# search('cse2221', 'prereq')
+# load_data()
+# search('Artificial intelligence', tag='num', attr='track')
+# from time import sleep
+# sleep(1)
+# deleteData()
