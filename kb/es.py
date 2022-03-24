@@ -79,9 +79,6 @@ def delete_index(es_object, index_name):
     es_object.indices.delete(index=index_name)
 
 
-def search(es_object, index_name, search):
-    res = es_object.search(index=index_name, body=search)
-    return res
 
 
 def read_input(filename):
