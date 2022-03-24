@@ -9,18 +9,18 @@ headers = {
 
 
 def load_data():
-    file = open('course_data.json')
-    course_data = json.load(file)
+    print('ES: Loading data...')
+    with open('./data/course_data.json') as file:
+        course_data = json.load(file)
     for i in range(len(course_data)):
-        print(i)
+        # print(i)
         name = "course" + str(i + 1)
-        print(type(course_data))
+        # print(type(course_data))
         data = course_data[name]
-        print(data)
-        print(requests.post(url='http://localhost:9200/course/_doc/' + str(i),
-                            data=json.dumps(data), headers=headers).json())
-
-    print('done')
+        # print(data)
+        requests.post(url='http://localhost:9200/course/_doc/' + str(i),
+                            data=json.dumps(data), headers=headers).json()
+    print('ES: Done!')
 
 
 def search(entity, tag=''):
@@ -67,4 +67,4 @@ def deleteData():
     print(requests.delete(url='http://localhost:9200/_all').json())
 
 
-search('cse2221', 'prereq')
+# search('cse2221', 'prereq')
