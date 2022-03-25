@@ -9,25 +9,25 @@ headers = {
 
 
 def load_data():
-    file = open('course_data.json')
-    course_data = json.load(file)
+    print('ES: Loading data...')
+    with open('./data/course_data.json') as file:
+        course_data = json.load(file)
     for i in range(len(course_data)):
-        print(i)
+        # print(i)
         name = "course" + str(i + 1)
-        print(type(course_data))
+        # print(type(course_data))
         data = course_data[name]
-        print(data)
-        print(requests.post(url='http://localhost:9200/course/_doc/' + str(i),
-                            data=json.dumps(data), headers=headers).json())
+        # print(data)
+        requests.post(url='http://localhost:9200/course/_doc/' + str(i),
+                            data=json.dumps(data), headers=headers).json()
+    print('ES: Done!')
 
-    print('done')
 
-
-def search(entity, tag=''):
+def search(entity, tag='', attr='num'):
     entity = entity.upper()
     tag = tag.lower()
     temp = requests.get(url='http://localhost:9200/course/_search',
-                        data='{ "query": { "match" : { "num": { "query": "' + entity + '", "fuzziness": "2" } } } }',
+                        data='{ "query": { "match" : { "' + attr + '": { "query": "' + entity + '", "fuzziness": "2" } } } }',
                         headers=headers).json()
     hits1 = temp['hits']
     hits2 = hits1['hits']
@@ -66,5 +66,8 @@ def search(entity, tag=''):
 def deleteData():
     print(requests.delete(url='http://localhost:9200/_all').json())
 
-
-search('cse2221', 'prereq')
+# load_data()
+# search('Artificial intelligence', tag='num', attr='track')
+# from time import sleep
+# sleep(1)
+# deleteData()
