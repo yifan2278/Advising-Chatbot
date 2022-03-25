@@ -1,6 +1,8 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from wsgiref.handlers import SimpleHandler
-import requests, pickle, spacy
+import requests
+import pickle
+import spacy
 import numpy as np
 
 # curl -X POST -H "Content-Type: text/plain" --data "this is raw data" http://localhost:8000
@@ -36,6 +38,7 @@ def get_person_entity(ner_person, q):
         if ent.label_ == 'PERSON':
             res.append(ent)
     return res
+
 
 class fooHandler(BaseHTTPRequestHandler):
     def do_POST(self):

@@ -1,44 +1,72 @@
+.chat {
+    font-family: sans-serif;
+    text-align: center;
+    height: 50px;
+    padding: 50px;
+    margin: 20px;
+}
 
-.chat{
-  text-align: center;
-  height: 50px;
-  padding: 50px;
-  margin: 20px;
+.container-lg {
+    padding-top: 50px;
+}
+
+.fa {
+    display: inline
 }
 
 .scroller {
-  padding-top: 20px;
-  padding-bottom: 500px;
-  width: 90%;
-  height: 450px;
-  overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    width: 90%;
+    height: 500px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
-form{
-    text-align: center;
-    padding:50px;
+.current {
+    font-size: 1.4em;
 }
-img{
+
+.current .bot {
+    animation: fadeIn linear 1.2s;
+}
+
+form {
+    text-align: center;
+    padding: 50px;
+}
+
+img {
     width: 30px;
     height: 30px;
     display: inline-block;
 }
 
-label{
-    font-size:22px;
+label {
+    font-size: 22px;
 }
-input{
+
+input {
     height: 50px;
-    width:50%;
+    width: 50%;
 }
-.bot{
+
+.bot {
     text-align: left;
     padding-left: 200px;
 }
-.user{
+
+.user {
     text-align: right;
     padding-right: 100px;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
