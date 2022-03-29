@@ -65,7 +65,7 @@ class fooHandler(BaseHTTPRequestHandler):
             res = "Hi! I'm CSE Advising Chatbot. You can ask me general questions like TODO"
         elif q_class == 'PREREQ':
             class_num = get_course_entity(ner_class, q.lower())
-            res = 'The prerequisites for {} is : {}'.format(ner_class, str(class_num))
+            res = 'The prerequisites for {} is : {}'.format(str(ner_class), str(class_num))
         elif q_class == 'SIMILAR-COURSES':
             class_num = get_course_entity(ner_class, q.lower())
             res = 'entity:' + str(class_num)
