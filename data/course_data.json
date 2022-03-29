@@ -6,6 +6,7 @@
     "topic": "AI, knowledge-base, project",
     "name": "Capstone Design: Knowledge-Based Systems",
     "desc": "Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills."
+    "section": " "
   },
   "course2": {
     "num": "CSE5911",
@@ -85,7 +86,8 @@
     "track": "Artificial intelligence (AI)",
     "topic": "AI, NLP",
     "name": "Foundations of Speech and Language Processing",
-    "desc": "Fundamentals of natural language processing, automatic speech recognition and speech synthesis; lab projects concentrating on building systems to process written and/or spoken language."
+    "desc": "Fundamentals of natural language processing, automatic speech recognition and speech synthesis; lab projects concentrating on building systems to process written and/or spoken language.",
+    "section": "0010, TuTh 12:45PM - 2:05PM, Yu Su"
   },
   "course12": {
     "num": "CSE5526",
@@ -357,7 +359,8 @@
     "track": "Computer Networking (CNT)",
     "topic": "Internet, TCP, IP layers, Internet data link and physical layers, Wireless networks, Network security",
     "name": "Computer Networking and Internet Technologies",
-    "desc": "Computer networks, communication protocols, Internet TCP/IP and applications, wireless communications and network security."
+    "desc": "Computer networks, communication protocols, Internet TCP/IP and applications, wireless communications and network security.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course46": {
     "num": "CSE3521",
@@ -365,7 +368,8 @@
     "track": "Artificial Intelligence (AIT)",
     "topic": "Basic representation and problem solving methods, Search techniques and game playing, Knowledge representation using logiC, Machine learning, probabilistic inference, Planning and common sense reasoning, Perception and communication",
     "name": "Survey of Artificial Intelligence I: Basic Techniques",
-    "desc": "Survey of basic concepts and techniques in artificial intelligence, including problem solving, knowledge representation, and machine learning."
+    "desc": "Survey of basic concepts and techniques in artificial intelligence, including problem solving, knowledge representation, and machine learning.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course47": {
     "num": "CSE3541",
@@ -373,7 +377,8 @@
     "track": "",
     "topic": "",
     "name": "Computer Game and Animation Techniques",
-    "desc": "Fundamental algorithms and mathematics in production of computer animation and video games, emphasizing control and rendering of animated characters."
+    "desc": "Fundamental algorithms and mathematics in production of computer animation and video games, emphasizing control and rendering of animated characters.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course48": {
     "num": "CSE3901",
@@ -381,7 +386,8 @@
     "track": "Core",
     "topic": "Dynamic web application, development and formatting of static web content, SQL, Be exposed to the use of application frameworks for the deployment of web applications, Be exposed to some basic security vulnerabilities sometimes found in web applications. Be exposed to methods for internationalizing web applications.",
     "name": "Project: Design, Development, and Documentation of Web Applications",
-    "desc": "Intensive group project involving design, development, and documentation of a web application; client-side and server-side scripting; communication skills emphasized; builds programming maturity."
+    "desc": "Intensive group project involving design, development, and documentation of a web application; client-side and server-side scripting; communication skills emphasized; builds programming maturity.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course49": {
     "num": "CSE3902",
@@ -389,7 +395,8 @@
     "track": "Computer Graphics and Game Design (CGG)",
     "topic": "2D graphics objects and rendering, event based programming, elements of game engines such as AI, animation, memory management, and user control, game content creation and editing tools, writing, organizational, and communication skills, analyzing the intended audience for a written document and writing an audience profile, tradeoffs",
     "name": "Project: Design, Development, and Documentation of Interactive Systems",
-    "desc": "Intensive group project involving design, development, and documentation of an interactive software system, a 2D interactive game; communication skills emphasized; builds programming maturity."
+    "desc": "Intensive group project involving design, development, and documentation of an interactive software system, a 2D interactive game; communication skills emphasized; builds programming maturity.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course50": {
     "num": "CSE3903",
@@ -397,7 +404,8 @@
     "track": "Core",
     "topic": "",
     "name": "Project: Design, Development, and Documentation of System Software",
-    "desc": "Intensive group project involving design, development, and documentation of system software including an assembler and a linking loader; communication skills emphasized; builds programming maturity."
+    "desc": "Intensive group project involving design, development, and documentation of system software including an assembler and a linking loader; communication skills emphasized; builds programming maturity.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course51": {
     "num": "CSE4193",
@@ -405,7 +413,8 @@
     "track": "no specific track",
     "topic": "Individual study",
     "name": "Individual Studies in Computer Science and Engineering",
-    "desc": "Designed to give the student an opportunity to pursue special studies not otherwise offered."
+    "desc": "Designed to give the student an opportunity to pursue special studies not otherwise offered.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course52": {
     "num": "CSE4251",
@@ -413,7 +422,9 @@
     "track": "no specific track",
     "topic": "C Shell, C Shell programming, Regular expression in UNIX, Make, sed, awk",
     "name": "The UNIX Programming Environment",
-    "desc": "Introduction to the UNIX programming environment including: shell programming (csh); regular expressions; makefiles; grep, sed, and awk programming languages."
+    "desc": "Introduction to the UNIX programming environment including: shell programming (csh); regular expressions; makefiles; grep, sed, and awk programming languages.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course53": {
     "num": "CSE4252",
@@ -421,7 +432,9 @@
     "track": "no specific track",
     "topic": "Compiling and running C++ programs, Overview of simple types in C++, Distinction between objects and classes, Compile-time picture vs. runtime, Stack vs. heap objects, Inheritance, Overriding, Virtual methods, Abstract class, Exceptions, Namespaces, Templates",
     "name": "Programming in C++",
-    "desc": "Syntax and pragmatics of C++ programming; C++ types, arrays, classes, pointers; objects and classes; compile-time vs. run-time picture; inheritance; template classes."
+    "desc": "Syntax and pragmatics of C++ programming; C++ types, arrays, classes, pointers; objects and classes; compile-time vs. run-time picture; inheritance; template classes.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course54": {
     "num": "CSE4253",
@@ -429,7 +442,9 @@
     "track": "no specific track",
     "topic": "C# language basics, C# Generics and generic collection classes in .Net, Enumerations and Iterators, Delegates and Events, Equality, Anonymous types, Lambda Expressions, LINQ and functional programming in C#",
     "name": "Programming in C#",
-    "desc": "C# programming for students well-versed in programming with another object-oriented language."
+    "desc": "C# programming for students well-versed in programming with another object-oriented language.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course55": {
     "num": "CSE4254",
@@ -437,7 +452,9 @@
     "track": "no specific track",
     "topic": "Data structures, Program control and structure, Functions, I/O and symbols, Numbers and macros, Advanced topics",
     "name": "Programming in Lisp",
-    "desc": "Lisp programming for students well-versed in programming with another language."
+    "desc": "Lisp programming for students well-versed in programming with another language.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course56": {
     "num": "CSE4256",
@@ -445,7 +462,9 @@
     "track": "no specific track",
     "topic": "Fundamental Python classes and functions, Object-oriented Programming in Python, Applications of graph theory, Design Patterns, Text processing and regular expressions, Functional Programming, Python library",
     "name": "Programming in Python",
-    "desc": "Python programming for students well-versed in programming with another imperative language."
+    "desc": "Python programming for students well-versed in programming with another imperative language.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course57": {
     "num": "CSE4471",
@@ -453,7 +472,9 @@
     "track": "Information and Computation Assurance",
     "topic": "Information security, Legal regulatory issues, Risk management, Firewalls, Intrusion detection, Incident response, Cryptography, Access control",
     "name": "Information Security",
-    "desc": "Introduction to security of digital information; threats and attacks; regulations; risk management; attack detection and response; cryptography; forensics; technical training and certifications."
+    "desc": "Introduction to security of digital information; threats and attacks; regulations; risk management; attack detection and response; cryptography; forensics; technical training and certifications.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course58": {
     "num": "CSE4998",
@@ -461,7 +482,9 @@
     "track": "no specific track",
     "topic": "Individual research",
     "name": "Undergraduate Research in Computer Science and Engineering",
-    "desc": "Opportunity for undergraduate student to conduct research in Computer Science and Engineering."
+    "desc": "Opportunity for undergraduate student to conduct research in Computer Science and Engineering.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course59": {
     "num": "CSE4999",
@@ -469,7 +492,9 @@
     "track": "no specific track",
     "topic": "Individual research",
     "name": "Computer Science and Engineering Research for Thesis",
-    "desc": "Supervised research and project work arranged individually."
+    "desc": "Supervised research and project work arranged individually.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course60": {
     "num": "CSE5234",
@@ -477,7 +502,9 @@
     "track": "Software Engineering (SWS)",
     "topic": "Introduction to Distributed Enterprise Systems, Overview of the technologies used for distributed enterprise systems, XML, Javascript, AJAX and JSON, Object-relational mapping (ORM), Enterprise Java, Designing enterprise applications, SOAP and REST Web Services, Enterprise integration via the Enterprise Service Bus, Cloud computing toolkits, Mobile and edge computing, High-volume computing on mainframe computers",
     "name": "Distributed Enterprise Computing ",
-    "desc": "Current application and middleware frameworks for distributed enterprise computing; XML; Enterprise Java; SOAP and REST web services; AJAX and JSON; enterprise service bus; Hadoop; mobile computing."
+    "desc": "Current application and middleware frameworks for distributed enterprise computing; XML; Enterprise Java; SOAP and REST web services; AJAX and JSON; enterprise service bus; Hadoop; mobile computing.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course61": {
     "num": "CSE5235",
@@ -485,7 +512,9 @@
     "track": "Software Engineering (SWS)",
     "topic": "Introduction to vocabulary HCI, business processes, supply chains, enterprise architectures and systems, and symbiotic computing; declarative modeling and analysis methods using case studies. Use of performance linkages between services in-the-large and in-the-small, for service level and policy formulation,and evaluation; service life-cycle. Patterns and principles for co-engineering Adaptive Complex systems to achieve behaviors",
     "name": "Applied Enterprise Architectures and Services",
-    "desc": "Modeling/analysis of complex enterprise architectures; enterprise patterns (workflow, broker, warehousing); methods for service performance (lean, ontologies, data mining, etc.); emerging topics in semantic cyber-infrastructures, social computation"
+    "desc": "Modeling/analysis of complex enterprise architectures; enterprise patterns (workflow, broker, warehousing); methods for service performance (lean, ontologies, data mining, etc.); emerging topics in semantic cyber-infrastructures, social computation",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course62": {
     "num": "CSE5236",
@@ -493,7 +522,9 @@
     "track": "Software Engineering (SWS)",
     "topic": "Characteristics of mobile applications, History of mobile application frameworks, Overview of mobile application development languages, Application models of mobile application frameworks, User-interface design for mobile applications, Managing application data, Integrating with cloud services, Creating enriched user interfaces. Multi-touch and gesture-based application, Integrating networking, the OS and hardware into mobile applications",
     "name": "Mobile Application Development",
-    "desc": "Mobile application development frameworks; Architecture, design and engineering issues, techniques, methodologies for mobile application development."
+    "desc": "Mobile application development frameworks; Architecture, design and engineering issues, techniques, methodologies for mobile application development.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course63": {
     "num": "CSE5239",
@@ -501,7 +532,9 @@
     "track": "no specific track",
     "topic": "Current topics in software engineering",
     "name": "Intermediate Studies in Software Engineering",
-    "desc": "Intermediate-level topics in software engineering."
+    "desc": "Intermediate-level topics in software engineering.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course64": {
     "num": "CSE5242",
@@ -509,7 +542,9 @@
     "track": "Database Systems and Data Analytics (DBA)",
     "topic": "Transaction Management, Query Processing and Optimization, Advanced Indexing and Query Processing, Multi-dimensional Index Structures.Data Warehouse Design and Implementation, New Topics and Applications",
     "name": "Advanced Database Management Systems",
-    "desc": "Transaction management; query processing and optimization; organization of database systems, advanced indexing, multi-dimensional data, similarity-based analysis, performance evaluation, new database applications."
+    "desc": "Transaction management; query processing and optimization; organization of database systems, advanced indexing, multi-dimensional data, similarity-based analysis, performance evaluation, new database applications.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course65": {
     "num": "CSE5243",
@@ -517,7 +552,9 @@
     "track": "Computer Systems (CSY), Database Systems and Data Analytics (DBA), ",
     "topic": "Knowledge Discovery Process and Background, Elements of Data Preprocessing and Data Transformations, Data Clustering, Data Classification, Frequent Pattern Mining, Analyzing Graphs and Networks, Anomaly Detection, Applications (Bioinformatics, Social Networks)",
     "name": "Introduction to Data Mining",
-    "desc": "Knowledge discovery, data mining, data preprocessing, data transformations; clustering, classification, frequent pattern mining, anomaly detection, graph and network analysis; applications."
+    "desc": "Knowledge discovery, data mining, data preprocessing, data transformations; clustering, classification, frequent pattern mining, anomaly detection, graph and network analysis; applications.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course66": {
     "num": "CSE5245",
@@ -525,7 +562,9 @@
     "track": "no specific track",
     "topic": "Motivation and Introduction to Basic Concepts, Graph Algorithms, Page Rank and Community Discovery, Network Models, The Web and Social Network Analysis: Putting It All Together, ",
     "name": "Introduction to Network Science",
-    "desc": "Introduction to Network Science; Global and Local Network Measures; PageRank; Community Discovery Algorithms; Network Models; Understanding the role of network analysis in Web and Social network applications."
+    "desc": "Introduction to Network Science; Global and Local Network Measures; PageRank; Community Discovery Algorithms; Network Models; Understanding the role of network analysis in Web and Social network applications.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course67": {
     "num": "CSE5343",
@@ -533,7 +572,9 @@
     "track": "no specific track",
     "topic": "Compiler structure, Lexical analysis, Parsing, Type checking, Intermediate code, Control-flow analysis, Dataflow analysis, Code optimizations, Generation of machine code, Parallelism and locality, Instruction scheduling, Register allocation",
     "name": "Compiler Design and Implementation",
-    "desc": " Lexical and syntax analysis using compiler generation tools; type checking; intermediate code; control-flow analysis; dataflow analysis; code optimizations; code generation; compiler project."
+    "desc": " Lexical and syntax analysis using compiler generation tools; type checking; intermediate code; control-flow analysis; dataflow analysis; code optimizations; code generation; compiler project.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course68": {
     "num": "CSE5351",
@@ -541,7 +582,9 @@
     "track": "no specific track",
     "topic": "",
     "name": "Introduction to Cryptography",
-    "desc": " Foundations of cryptography; mathematical formulations/proofs of security goals; theory and practical constructions of encryption schemes, MACs, digital signatures; zero-knowledge proof systems; cryptographic protocols."
+    "desc": " Foundations of cryptography; mathematical formulations/proofs of security goals; theory and practical constructions of encryption schemes, MACs, digital signatures; zero-knowledge proof systems; cryptographic protocols.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course69": {
     "num": "CSE5432",
@@ -549,7 +592,9 @@
     "track": "Computer Networking (CNT)",
     "topic": "Mobile handset, Mobile handset processor architecture; memory systems; I/O devices and sensors, Virtual machine; system power management, Mobile social networking; security",
     "name": "Mobile Handset Systems and Networking",
-    "desc": "Mobile handset architecture: processors, memory, I/O devices, sensors, virtual machine and power management; different ranges of wireless communication technologies; TCP/IP over wireless; mobile social networking."
+    "desc": "Mobile handset architecture: processors, memory, I/O devices, sensors, virtual machine and power management; different ranges of wireless communication technologies; TCP/IP over wireless; mobile social networking.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course70": {
     "num": "CSE5433",
@@ -557,7 +602,9 @@
     "track": "Computer Systems (CSY)",
     "topic": "Linux basics, Internals of system calls, Linux CPU scheduling and process management, Linux interrupt handling, Linux memory management, Linux file systems ",
     "name": "Operating Systems Laboratory",
-    "desc": "Introduction to the internals of operating systems; designing and implementing components within commercial operating systems: system calls, CPU scheduling, context switching, process management, memory management, file systems."
+    "desc": "Introduction to the internals of operating systems; designing and implementing components within commercial operating systems: system calls, CPU scheduling, context switching, process management, memory management, file systems.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course71": {
     "num": "CSE5434",
@@ -565,7 +612,9 @@
     "track": "no specific track",
     "topic": "Fundamentals, Process management, Processor scheduling, File management, Performance management. The assembled package. ",
     "name": "Comparative Operating Systems",
-    "desc": "A careful examination of a number of representative computer operating systems."
+    "desc": "A careful examination of a number of representative computer operating systems.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course72": {
     "num": "CSE5441",
@@ -573,7 +622,9 @@
     "track": "Computer Systems (CSY)",
     "topic": "Fundamental performance issues, Cache and its impact on performance, Loop Transformations for performance enhancement, Data dependence analysis, Overview of parallel architectures and programming models, Shared-memory parallel programming, Message passing, Programming GPUs, Programming for high performance with short-vector SIMD instruction sets.",
     "name": "Introduction to Parallel Computing",
-    "desc": "Parallel programming models; sequential and parallel performance issues; high-performance computer architecture; design, analysis, implementation and performance evaluation of parallel algorithms."
+    "desc": "Parallel programming models; sequential and parallel performance issues; high-performance computer architecture; design, analysis, implementation and performance evaluation of parallel algorithms.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course73": {
     "num": "CSE5462",
@@ -581,7 +632,9 @@
     "track": "Computer Networking (CNT)",
     "topic": "Review of C pointers and memory allocation/deallocation, Review of the Unix environment, NesC, Communication using UDP sockets, Communication using TCP sockets",
     "name": "Network Programming",
-    "desc": "IP-based socket programming in C/C++, TinyOS programming in NesC."
+    "desc": "IP-based socket programming in C/C++, TinyOS programming in NesC.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course74": {
     "num": "CSE5463",
@@ -589,7 +642,8 @@
     "track": "Computer Networking (CNT)",
     "topic": "Historical Milestones and Current Wireless Networks, Understanding the Wireless Communication Channel, Multiple Access Techniques (FDMA, TDMA, CDMA), Power Control, Proactive and Reactive Routing, Congestion control, System case studies (802.11, Bluetooth, etc.), Energy management in sensor networks ",
     "name": "Introduction to Wireless Networking",
-    "desc": "Fundamental concepts in cellular design, Wireless-LANs, MANETs, and sensor networks will be explored. Specific topics will include propagation, fading, cellular-design, power-management, routing, scheduling, and control."
+    "desc": "Fundamental concepts in cellular design, Wireless-LANs, MANETs, and sensor networks will be explored. Specific topics will include propagation, fading, cellular-design, power-management, routing, scheduling, and control.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course75": {
     "num": "CSE5471",
@@ -597,7 +651,9 @@
     "track": "no specific track",
     "topic": "Basic concepts and definitions, Data Security, Software security, Component security, Connection security, System security, Human security, Organizational security, Social Security",
     "name": "Introduction to Cybersecurity",
-    "desc": "Introduction to cybersecurity. Technical fundamentals of data, software, component, network, and system security. Cybersecurity from an organizational and societal view point, including human factors."
+    "desc": "Introduction to cybersecurity. Technical fundamentals of data, software, component, network, and system security. Cybersecurity from an organizational and societal view point, including human factors.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course76": {
     "num": "CSE5472",
@@ -605,7 +661,9 @@
     "track": "Information and Computation Assurance (ICA), Computer Networking (CNT)",
     "topic": "Host hardening, Network Security, Computer Investigations, Miscellaneous topics relating to information security, VMware, project objectives ",
     "name": "Information Security Projects",
-    "desc": "Team-based projects: solve information security problems (mobile/static host/network hardening, intrusion detection and vulnerability scanning, forensics); results communicated through report writing and presentation."
+    "desc": "Team-based projects: solve information security problems (mobile/static host/network hardening, intrusion detection and vulnerability scanning, forensics); results communicated through report writing and presentation.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course77": {
     "num": "CSE5473",
@@ -613,7 +671,9 @@
     "track": "Information and Computation Assurance (ICA), Computer Networking (CNT)",
     "topic": "Security threats and services, Elements of cryptography, Protocols for security services, Network and internet security, Advanced security issues and technologies.",
     "name": "Network Security",
-    "desc": "Security threats and services, elements of cryptography, protocols for security services, network and internet security, advanced security issues and technologies."
+    "desc": "Security threats and services, elements of cryptography, protocols for security services, network and internet security, advanced security issues and technologies.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course78": {
     "num": "CSE5474",
@@ -621,7 +681,9 @@
     "track": "no specific track",
     "topic": "Secure software principles and practice, Memory safety, memory corruption & vulnerabilities, Vulnerability identification, Exploit development, Defenses.",
     "name": "Software Security",
-    "desc": "Software security fundamentals, secure coding principles and practices, common software vulnerabilities, memory exploits (shell code), vulnerability analysis (e.g., reverse engineering, fuzzing and symbolic execution), and defenses against common vulnerability exploitation."
+    "desc": "Software security fundamentals, secure coding principles and practices, common software vulnerabilities, memory exploits (shell code), vulnerability analysis (e.g., reverse engineering, fuzzing and symbolic execution), and defenses against common vulnerability exploitation.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course79": {
     "num": "CSE5477.01",
@@ -629,7 +691,9 @@
     "track": "no specific track",
     "topic": "Common reconnaissance, Confidentiality attack: side-channel attacks, Confidentiality attack: crypto and password attacks, Confidentiality attack: data leakage attacks, Integrity attacks: malware attacks, Integrity attacks: control flow hijack attacks, Availability attacks, Human weakness attack.",
     "name": "Offensive Security",
-    "desc": "This course will give students an overview of existing offensive computing techniques, which include well known attacks that break confidentiality, integrity and availability of computing resources. Attacks targeting on human weaknesses without taking special care to security will also be discussed."
+    "desc": "This course will give students an overview of existing offensive computing techniques, which include well known attacks that break confidentiality, integrity and availability of computing resources. Attacks targeting on human weaknesses without taking special care to security will also be discussed.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course80": {
     "num": "CSE5477.02",
@@ -637,7 +701,9 @@
     "track": "no specific track",
     "topic": "Reverse engineering tools, Taxonomy of malware, Static analysis techniques, Static analysis techniques, Dynamic analysis techniques: tainting, Dynamic analysis techniques: fuzzing, Dynamic analysis techniques, Introduction to anti-static analysis techniques, Introduction to anti-dynamic analysis techniques, Machine Learning security, Video Game Security, AI for malware analysis.",
     "name": "Reverse Engineering and Malware Analysis",
-    "desc": "This course will give students an overview of cutting edge reverse engineering techniques as well as software security and defense practices. Programming experience in C required."
+    "desc": "This course will give students an overview of cutting edge reverse engineering techniques as well as software security and defense practices. Programming experience in C required.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course81": {
     "num": "CSE5542",
@@ -645,7 +711,9 @@
     "track": "Computer Graphics and Game Design (CGG)",
     "topic": "Overview of graphics APIs, Overview of graphics hardware, Coordinate systems in rendering pipeline, Modeling transformation, 3D viewing, Basic lighting algorithms, Introduction to OpenGL Shading Language, OpenGL, Real time shadow algorithms, Bump mapping, Environment mapping, Advanced texture mapping and anti-aliasing, Advanced shading and lighting algorithms ",
     "name": "Real-Time Rendering",
-    "desc": "Comprehensive list of topics in real-time rendering using OpenGL and GLSL, including coordinate systems, transformations, viewing, illumination, texture mapping, and shader-based algorithms."
+    "desc": "Comprehensive list of topics in real-time rendering using OpenGL and GLSL, including coordinate systems, transformations, viewing, illumination, texture mapping, and shader-based algorithms.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course82": {
     "num": "CSE5543",
@@ -653,7 +721,9 @@
     "track": "Computer Graphics and Game Design (CGG)",
     "topic": "Curve modeling (B-splines and Bezier), Subdivision curves, Surface geometry and topology, Surface modeling (B-splines and Bezier), Subdivision surfaces, B-rep, CSG, Boolean operations, Curve and surface reconstruction, Surface and volume simplification, Mesh generation, Parameterization.",
     "name": "Geometric Modeling",
-    "desc": "Common algorithmic and mathematical techniques for modeling geometric objects in computer graphics and CAD applications; sample based modeling, mesh generation, and hierarchical representations."
+    "desc": "Common algorithmic and mathematical techniques for modeling geometric objects in computer graphics and CAD applications; sample based modeling, mesh generation, and hierarchical representations.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course83": {
     "num": "CSE5544",
@@ -661,7 +731,9 @@
     "track": "Computer Graphics and Game Design (CGG)",
     "topic": "Historical remarks, Abstract visualization concepts and the visualization pipeline, Principles of visual design, Basic mapping concepts, Perception and color theory, Visualization of matrices, graphs and trees, Visualization of high-dimensional data and demensionality reduction techniques, Visualization of scalar fieldsVisualization of vector fields, Evaluation and Interaction models",
     "name": "Introduction to Data Visualization",
-    "desc": "Principles and methods for visualizing data from measurements and calculations in physical and life sciences, and transactional and social disciplines; information visualization; scientific visualization."
+    "desc": "Principles and methods for visualizing data from measurements and calculations in physical and life sciences, and transactional and social disciplines; information visualization; scientific visualization.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course84": {
     "num": "CSE5545",
@@ -669,7 +741,9 @@
     "track": "Computer Graphics and Game Design (CGG)",
     "topic": "Introduction to Realistic Rendering and Literate Programming, Geometry, Transformations, Shapes, Acceleration Structures, Color and Radiometry, Sampling and Reconstruction, Reflection Models, Texture, Volume Rendering and Scattering, Monte Carlo Methods, Unbiased Light Transport.",
     "name": "Advanced Computer Graphics",
-    "desc": "Advanced topics in computer graphics; image synthesis, lighting and rendering, sampling and material properties, volume rendering."
+    "desc": "Advanced topics in computer graphics; image synthesis, lighting and rendering, sampling and material properties, volume rendering.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course85": {
     "num": "CSE5546",
@@ -677,7 +751,9 @@
     "track": "no specific track",
     "topic": "Background in virtual reality and virtual environments, Input devices: Wands, 3D mouse, Immersion and presence: Stereo, head-tracking, Real-time graphics: Rendering and visualization, Augmented and mixed reality, Navigation: Travel and way finding in 3D, Selection and manipulation of objects in 3D, System control: Change of system state in 3D, The future of VE.",
     "name": "Virtual Reality",
-    "desc": "Principles and methods for the design, development, and evaluation of three-dimensional interfaces in virtual environments and their applications in data science, medicine, and engineering."
+    "desc": "Principles and methods for the design, development, and evaluation of three-dimensional interfaces in virtual environments and their applications in data science, medicine, and engineering.",
+    "section": "0010, MoWeFr 2:45PM - 4:05PM, Naeem Shareef; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
+
   },
   "course86": {
     "num": "CSE5821",
@@ -685,7 +761,8 @@
     "track": "no specifc track",
     "topic": "Trade secrets, Patents, Copyrights, Trademarks, Designs.",
     "name": "Legal Topics for Computer Engineers",
-    "desc": "This course introduces students to areas of law that govern computer engineering and design. The goals of the course include mastery of a set of legal doctrines, as well as immersion in the legal method used by lawyers to analyze problems and by judges to decide cases. Students can expect to learn how to evaluate computer engineering methods and projects through the lens of legal analysis."
+    "desc": "This course introduces students to areas of law that govern computer engineering and design. The goals of the course include mastery of a set of legal doctrines, as well as immersion in the legal method used by lawyers to analyze problems and by judges to decide cases. Students can expect to learn how to evaluate computer engineering methods and projects through the lens of legal analysis.",
+    "section": "0010, TuTh 2:45PM - 4:05PM, Yu Su; 0020, TuTh 12:45PM - 2:05PM, Gregory Ryslik"
   },
   "course87": {
     "num": "CSE5891",
@@ -693,6 +770,7 @@
     "track": "no specifc track",
     "topic": "Interdisciplinary field of Cognitive Science, Fundamental issues of each discipline, Illustrations of representative research being conducted at OSU.",
     "name": "Proseminar in Cognitive Science",
-    "desc": "Provides an in-depth examination of cognitive science from an interdisciplinary perspective."
+    "desc": "Provides an in-depth examination of cognitive science from an interdisciplinary perspective.",
+    "section": "0010, TuTh 12:45PM - 2:05PM, Yu Su"
   }
 }
