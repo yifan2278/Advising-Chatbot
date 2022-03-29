@@ -16,11 +16,11 @@ ner_person = spacy.load('./ner/ner_person/')
 
 def get_class(clf, q):
     prob = clf.predict_proba([q])
-    # res = 'GREETING'
-    # if np.max(prob) > 0.2:
-    #     res = clf.classes_[np.argmax(prob)]
-    res = clf.classes_[np.argmax(prob)]
-    print('class:', res, np.max(prob))
+    res = 'GREETING'
+    if np.max(prob) > 0.19:
+        res = clf.classes_[np.argmax(prob)]
+    # res = clf.classes_[np.argmax(prob)]
+    # print('class:', res, np.max(prob))
     return res
 
 
@@ -62,10 +62,10 @@ class fooHandler(BaseHTTPRequestHandler):
         q = data
         q_class = get_class(clf, q)
         if q_class == 'GREETING':
-            res = 'Hi'
+            res = "Hi! I'm CSE Advising Chatbot. You can ask me general questions like TODO"
         elif q_class == 'PREREQ':
             class_num = get_course_entity(ner_class, q.lower())
-            res = 'entity:' + str(class_num)
+            res = 'The prerequisites for {} is : {}'.format(ner_class, str(class_num))
         elif q_class == 'SIMILAR-COURSES':
             class_num = get_course_entity(ner_class, q.lower())
             res = 'entity:' + str(class_num)
