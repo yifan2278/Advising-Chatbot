@@ -49,6 +49,7 @@ def search(entity, tag='', attr='num'):
                 print('prereq: ' + info['prereq'])
                 print('topic: ' + info['topic'])
                 print('desc:' + info['desc'])
+                print('section:', info['section'])
                 print('\n')
             else:
                 print(tag + ': ' + info[tag])
@@ -61,6 +62,7 @@ def search(entity, tag='', attr='num'):
             print('prereq: ' + info['prereq'])
             print('topic: ' + info['topic'])
             print('desc:' + info['desc'])
+            print('section:', info['section'])
             print('\n')
         else:
             print(tag + ': ' + info[tag])
@@ -70,8 +72,8 @@ def deleteData():
     print(requests.delete(url='http://localhost:9200/_all').json())
 
 
-# load_data()
-# search('Artificial intelligence', tag='num', attr='track')
-# search('cse3521')
-# sleep(1)
-# deleteData()
+load_data()
+search('Artificial intelligence', tag='num', attr='track')
+search('cse3521')
+sleep(1)
+deleteData()
