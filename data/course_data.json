@@ -5,8 +5,8 @@
     "track": "Artificial intelligence (AI)",
     "topic": "AI, knowledge-base, project",
     "name": "Capstone Design: Knowledge-Based Systems",
-    "desc": "Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills."
-    "section": " "
+    "desc": "Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills.",
+    "section": "25417, TuTh 4:00PM - 5:20PM, Stanley Vernier;  25377, TuTh 2:20PM - 3:40PM, Stanley Vernier; 25886, TuTh 9:35PM - 10:55AM, Stanley Vernier; 35964, TuTh 4:00PM - 5:20PM, Stephen Boxwell."
   },
   "course2": {
     "num": "CSE5911",
@@ -14,7 +14,8 @@
     "track": "no specific track",
     "topic": "SWE methodology selection, High-level project, teamwork",
     "name": "Capstone Design: Software Applications",
-    "desc": "Capstone design project: application of software engineering techniques, methodologies and technologies in software lifecycle activities using enterprise software frameworks; teamwork, written and oral communication."
+    "desc": "Capstone design project: application of software engineering techniques, methodologies and technologies in software lifecycle activities using enterprise software frameworks; teamwork, written and oral communication.",
+    "section":"0010, TuTh 9:35AM - 10:55AM, Keith Shafer; 0020, TuTh 5:30PM - 6:50PM, John Bisho; 0040, MoWe 5:30PM - 6:50PM, Dauntrica Woods."
   },
   "course3": {
     "num": "CSE5912",
@@ -22,7 +23,8 @@
     "track": "Computer Graphics and Game Design",
     "topic": "SWE for games, game idea generation, High-level project",
     "name": "Capstone Design: Game Design and Development",
-    "desc": "Capstone design project; conceptual and technical design and implementation of interactive game, integrating custom code and toolkits; teamwork, written and oral communication skills."
+    "desc": "Capstone design project; conceptual and technical design and implementation of interactive game, integrating custom code and toolkits; teamwork, written and oral communication skills.",
+    "section":"0010, TuWeThFr 3:00PM - 3:55PM, Roger Crawfis."
   },
   "course4": {
     "num": "CSE5913",
@@ -30,7 +32,8 @@
     "track": "Computer Graphics and Game Design",
     "topic": "Class software familiarization, ",
     "name": "Capstone Design: Computer Animation",
-    "desc": "Capstone design project: conceptual and technical design and implementation of computer animation incorporating animation elements; teamwork, written and oral communication skills."
+    "desc": "Capstone design project: conceptual and technical design and implementation of computer animation incorporating animation elements; teamwork, written and oral communication skills.",
+    "section":"No section found."
   },
   "course5": {
     "num": "CSE5915",
@@ -38,7 +41,8 @@
     "track": "no specific track",
     "topic": "Web-based Information Systems, multimedia and scientific data management",
     "name": "Capstone Design: Information Systems",
-    "desc": " Capstone design project; information system principles: database design methods and tools, indexing, searching, application development, testing, evaluation; teamwork, written and oral communication skills."
+    "desc": " Capstone design project; information system principles: database design methods and tools, indexing, searching, application development, testing, evaluation; teamwork, written and oral communication skills.",
+    "section":"0010,TuTh 6:00PM -7:20PM, Suribabu Jayanti; 0020, MoWeFr 12:40PM - 1:35PM, Robert Vanderwall; 0030, MoWeFr 1:50PM - 2:45PM, Robert Vanderwall."
   },
   "course6": {
     "num": "CSE5916",
@@ -46,7 +50,8 @@
     "track": "no specific track",
     "topic": "The scientific method, theory-guided data science, the data science life-cycle,  data analysis",
     "name": "Capstone Design: Research-Focused Projects",
-    "desc": "Capstone design project; convergent and scalable research formulation and development, computational solutions to open-ended research problems, teamwork, written and oral communication skills."
+    "desc": "Capstone design project; convergent and scalable research formulation and development, computational solutions to open-ended research problems, teamwork, written and oral communication skills.",
+    "section":"0010, MoWe 11:10AM - 12:30PM, Rajiv Ramnath."
   },
   "course7": {
     "num": "CSE5521",
@@ -54,7 +59,8 @@
     "track": "Artificial intelligence (AI)",
     "topic": "",
     "name": "Survey of Artificial Intelligence I: Basic Techniques",
-    "desc": "Survey of the basic concepts and techniques in artificial Intelligence, including problem solving, knowledge representation, and machine learning."
+    "desc": "Survey of the basic concepts and techniques in artificial Intelligence, including problem solving, knowledge representation, and machine learning.",
+    "section":"No section found."
   },
   "course8": {
     "num": "CSE5522",
@@ -62,7 +68,8 @@
     "track": "Artificial intelligence (AI)",
     "topic": "Probability theory, Bayesian networks and probabilistic representations, Machine learning, Natural language processing, Diagrammatic reasoning and abductive inference, Computer vision ",
     "name": "Survey of Artificial Intelligence II: Advanced Techniques",
-    "desc": "Survey of advanced concepts, techniques, and applications of artificial intelligence, including knowledge representation, learning, natural language understanding, and vision."
+    "desc": "Survey of advanced concepts, techniques, and applications of artificial intelligence, including knowledge representation, learning, natural language understanding, and vision.",
+    "section":"No section found."
   },
   "course9": {
     "num": "CSE5523",
@@ -71,6 +78,7 @@
     "topic": "Basics of statistical pattern recognition, Probability and statistical inference, Bayes decision theory, Analysis of statistical algorithms, Clustering, Spectral clustering",
     "name": "Machine Learning and Statistical Pattern Recognition",
     "desc": "Introduction to basic concepts of machine learning and statistical pattern recognition; techniques for classification, clustering and data representation and their theoretical analysis."
+    ,"section":"0020, TuTh 9:35AM - 10:55AM, Xueru Zhang; 0030, TuTh 12:45PM - 2:05PM, Raef Bassily; 0040, MoWeFr 3:00PM - 3:55PM, Alfred Rossi."
   },
   "course10": {
     "num": "CSE5524",
@@ -78,7 +86,8 @@
     "track": "Artificial intelligence (AI)",
     "topic": "Introductory computer vision, Image formation, Noise removal, Edge detection, Pyramids, Region segmentation, 2-D shape, Template matching, Motion, Tracking, 3-D, Event analysis, Features, Motion capture ",
     "name": "Computer Vision for Human-Computer Interaction",
-    "desc": "Computer vision algorithms for use in human-computer interactive systems; image formation, image features, segmentation, shape analysis, object tracking, motion calculation, and applications."
+    "desc": "Computer vision algorithms for use in human-computer interactive systems; image formation, image features, segmentation, shape analysis, object tracking, motion calculation, and applications.",
+    "section":"0010, TuTh 2:20PM - 3:40PM, Joe Barker; 0020, TuTh 12:45PM - 2:05PM, Joe Barker."
   },
   "course11": {
     "num": "CSE5525",
@@ -95,7 +104,8 @@
     "track": "Artificial intelligence (AI)",
     "topic": "Introduction and McCulloch-Pitts networks, Perceptrons, Regression and least mean square algorithm, Multilayer perceptrons, Radial-basis function networks, Support vector machines, Recurrent networks, Unsupervised learning and self-organization, ",
     "name": "Introduction to Neural Networks",
-    "desc": "Survey of fundamental methods and techniques of neural networks; single- and multi-layer perceptrons; radial-basis function networks; support vector machines; recurrent networks; supervised and unsupervised learning."
+    "desc": "Survey of fundamental methods and techniques of neural networks; single- and multi-layer perceptrons; radial-basis function networks; support vector machines; recurrent networks; supervised and unsupervised learning.",
+    "section":"0010, TuTh 9:35AM - 10:55AM, Eric Fosler-Lussier."
   },
   "course13": {
     "num": "CSE2431",
@@ -103,7 +113,8 @@
     "track": "Core",
     "topic": "System",
     "name": "Systems II: Introduction to Operating Systems",
-    "desc": "Introduction to operating system concepts: process, CPU scheduling, memory management, file system and storage, and multi-threaded programming."
+    "desc": "Introduction to operating system concepts: process, CPU scheduling, memory management, file system and storage, and multi-threaded programming.",
+    "section":"0010, TuTh 9:35AM - 10:55AM, Adam Champion; 0020, TuTh 3:55PM - 5:15PM, Anthony Baietto; 0040, TuTh 11:10AM - 12:30PM, George Green; 0050, TuTh 2:20PM - 3:40PM, Keith Shafer; 0080, TuTh 12:45PM - 2:05PM, Keith Shafer; 0090, TuTh 12:45PM - 2:05PM, Adam Champion; 0100, TuTh 11:10AM - 12:30PM, Eduardo Romero Gainza;"
   },
   "course14": {
     "num": "CSE2221",
@@ -111,7 +122,8 @@
     "track": "Core",
     "topic": "Software",
     "name": "Software I: Software Components",
-    "desc": "Intellectual foundations of software engineering; design-by-contract principles; mathematical modeling of software functionality; component-based software from client perspective; layered data representation"
+    "desc": "Intellectual foundations of software engineering; design-by-contract principles; mathematical modeling of software functionality; component-based software from client perspective; layered data representation",
+    "section":"0005, TuTh 8:00AM - 8:55AM, Veronica Thai; 0006, WeFr 8:00AM - 8:55AM, Veronica Thai; 0010, TuTh 9:10AM - 10:05AM, Paolo Bucci; 0011, WeFr 9:10AM - 10:05AM, Paolo Bucci; 0015, TuTh 9:10AM - 10:05AM, Michael Fritz; 0016, WeFr 9:10AM - 10:05AM, Michael Fritz; 0035, TuTh 11:30AM - 12:25PM, Adam Grupa; 0036, WeFr 11:30AM - 12:25PM, Adam Grupa;  0070, TuTh 4:30PM - 5:25PM, Steve Gomori; 0071, WeFr 4:30PM - 5:25PM, Steve Gomori; 0105, TuTh 12:40PM - 1:35PM, Jeremy Grifski; 0106, WeFr 12:40PM - 1:35PM, Jeremy Grifski; 0110, TuTh 1:50PM - 2:45PM, Alan Weide; 0111, WeFr 1:50PM - 2:45PM, Alan Weide; 0140, TuTh 10:20AM - 11:15AM, Christine Kiel; 0141, WeFr 10:20AM - 11:15AM, Christine Kiel; 0144TuTh 12:40PM - 1:35PM, Rui Qiu; 0145, WeFr 12:40PM - 1:35PM, Rui Qiu."
   },
   "course15": {
     "num": "CSE2231",
@@ -119,7 +131,8 @@
     "track": "Core",
     "topic": "Software",
     "name": "Software II: Software Development and Design",
-    "desc": "Data representation using hashing, search trees, and linked data structures; algorithms for sorting; using trees for language processing; component interface design; best practices in Java."
+    "desc": "Data representation using hashing, search trees, and linked data structures; algorithms for sorting; using trees for language processing; component interface design; best practices in Java.",
+    "section":"0005, WeFr 8:00AM - 8:55AM, Christine Kiel; 0006, TuTh 8:00AM - 8:55AM, Christine Kiel; 0010, WeFr 9:10AM - 10:05AM, Jeremy Morris; 0011, TuTh 9:10AM - 10:05AM, Jeremy Morris; 0020, WeFr 10:20AM - 11:15AM, Diego Zaccai; 0021, TuTh 10:20AM - 11:15AM, Diego Zaccai; 0045, WeFr 12:40PM - 1:35PM, Wayne Heym; 0046, TuTh 12:40PM - 1:35PM, Wayne Heym; 0060, WeFr 3:00PM - 3:55PM, Annatala Wolf; 0061, TuTh 3:00PM - 3:55PM, Annatala Wolf. "
   },
   "course16": {
     "num": "CSE2421",
@@ -127,7 +140,8 @@
     "track": "Core",
     "topic": "System",
     "name": "Systems I: Introduction to Low-Level Programming and computer Organization",
-    "desc": "Introduction to computer architecture at machine and assembly language level; pointers and addressing; C programming at machine level; computer organization"
+    "desc": "Introduction to computer architecture at machine and assembly language level; pointers and addressing; C programming at machine level; computer organization",
+    "section":"0030, TuWeThFr 10:20AM - 11:15AM, Neil Kirby; 0040, MoWe 5:30PM - 7:20PM, Mohammad Abu Shattal; 0060, TuWeThFr 9:10AM - 10:05AM, Janis Jones; 0100, TuWeThFr 4:10PM - 5:05PM, Rob LaTour."
   },
   "course17": {
     "num": "CSE2321",
@@ -135,7 +149,8 @@
     "track": "Core",
     "topic": "Algorithm",
     "name": "Foundations I: Discrete Structures",
-    "desc": "Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic analysis; recurrence relations."
+    "desc": "Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic analysis; recurrence relations.",
+    "section":"0010, MoWeFr 9:10AM - 10:05AM, Charles Estill; 0020, MoWeFr 12:40PM - 1:35PM, Doreen Close; 0030, MoWeFr 10:20AM - 11:15AM, Nick Painter; 0095, MoWeFr 3:00PM - 3:55PM, Ali AlilooeeDolatabad; 0140, MoWeFr 12:40PM - 1:35PM, Baha Alzalg; 0180, TuTh 12:45PM - 2:05PM, Timothy Carpenter."
   },
   "course18": {
     "num": "CSE2331",
@@ -143,7 +158,8 @@
     "track": "Core",
     "topic": "Algorithm",
     "name": "Foundations II: Data Structures and Algorithms",
-    "desc": "Design/analysis of algorithms and data structures; divide-and-conquer; sorting and selection, search trees, hashing, graph algorithms, string matching; probabilistic analysis; randomized algorithms; NP-completeness."
+    "desc": "Design/analysis of algorithms and data structures; divide-and-conquer; sorting and selection, search trees, hashing, graph algorithms, string matching; probabilistic analysis; randomized algorithms; NP-completeness.",
+    "section":"0010, MoWeFr 9:10AM - 10:05AM, Rephael Wenger; 0025, MoWeFr 11:30AM - 12:25PM, Ali AlilooeeDolatabad; 0040, MoWeFr 12:40PM - 1:35PM, Kenneth Supowit; 0070, MoWeFr 4:10PM - 5:05PM, Nick Painter; 0090, MoWeFr 1:50PM - 2:45PM, Kenneth Supowit."
   },
   "course19": {
     "num": "CSE1110",
@@ -151,7 +167,8 @@
     "track": "no specific track",
     "topic": "Computers in society; word processing, Application software, The components of the system unit; spreadsheet application, Operating systems and utility programs, input and output devices, Database management; communications and networks",
     "name": "Introduction to Computing Technology",
-    "desc": " A course of general interest giving experience with personal computer software, e.g., word processors and spreadsheets; provides fundamental computer literacy; neither teaches nor requires programming."
+    "desc": " A course of general interest giving experience with personal computer software, e.g., word processors and spreadsheets; provides fundamental computer literacy; neither teaches nor requires programming.",
+    "section":"0010, TuTh 9:35AM - 10:55AM, Eric Fosler-Lussier."
   },
   "course20": {
     "num": "CSE1111",
@@ -159,7 +176,8 @@
     "track": "no specific track",
     "topic": "Computer basics, Excel, simple webpage",
     "name": "Introduction to Computer-Assisted Problem Solving",
-    "desc": "Problem solving techniques using productivity software; spreadsheets, formulas, conditional logic; relational databases, relational algebra; word processing; data presentation; graphics."
+    "desc": "Problem solving techniques using productivity software; spreadsheets, formulas, conditional logic; relational databases, relational algebra; word processing; data presentation; graphics.",
+    "section":"0010, TuTh 9:35AM - 10:55AM, Cindy Grimme; 0011, Mo 10:20AM - 11:15AM, Bayan Turkistani; 0020, TuTh 11:10AM - 12:30PM, Cindy Grimme; 0021, Mo 11:30AM - 12:25PM, Bayan Turkistani."
   },
   "course21": {
     "num": "CSE1112",
@@ -167,7 +185,8 @@
     "track": "no specific track",
     "topic": "Computer basics, Excel, simple webpage, powerpoint",
     "name": "Introduction to Computer-Assisted Problem Solving for Construction Systems Management",
-    "desc": "Using productivity software, especially spreadsheets and databases, to solve problems for construction management; relative/absolute cell referencing, logic, functions; relational databases, querying, project integration."
+    "desc": "Using productivity software, especially spreadsheets and databases, to solve problems for construction management; relative/absolute cell referencing, logic, functions; relational databases, querying, project integration.",
+    "section":"No section avaliable."
   },
   "course22": {
     "num": "CSE1113",
@@ -175,7 +194,8 @@
     "track": "no specific track",
     "topic": "functions, database concept, writing formulas",
     "name": "Spreadsheet Programming for Business",
-    "desc": "Spreadsheet modeling/programming concepts and techniques to solve business related problems; efficient/effective data handling, computational analysis and decision support."
+    "desc": "Spreadsheet modeling/programming concepts and techniques to solve business related problems; efficient/effective data handling, computational analysis and decision support.",
+    "section":"No section avaliable."
   },
   "course23": {
     "num": "CSE1114",
@@ -183,7 +203,8 @@
     "track": "no specific track",
     "topic": "Relational database management systems, Table Relationships, Use the query tool to find/organize information, Access Macros, SQL, Forms and Reports",
     "name": "Introduction to Databases Using MS Access",
-    "desc": "Database concepts and techniques for efficient/effective data handling, computational analysis and decision support."
+    "desc": "Database concepts and techniques for efficient/effective data handling, computational analysis and decision support.",
+    "section":"No section avaliable."
   },
   "course24": {
     "num": "CSE1211",
@@ -191,7 +212,8 @@
     "track": "no specific track",
     "topic": "Software installation, and basic concepts, intro to programming with media, images, colors, encodings, Loops, new definitions, simple image manipulations, Nested loops, conditionals, Boolean expressions, advanced image manipulations, Sequencing, iteration, and drawing,",
     "name": "Computational Thinking in Context: Images, Animation, and Games",
-    "desc": "Introduction to computational thinking, focusing on problem solving and programming concepts and skills needed to manipulate digital images and to create interactive graphics, animations, and games; creativity and imagination encouraged."
+    "desc": "Introduction to computational thinking, focusing on problem solving and programming concepts and skills needed to manipulate digital images and to create interactive graphics, animations, and games; creativity and imagination encouraged.",
+    "section":"No section avaliable."
   },
   "course25": {
     "num": "CSE1213",
@@ -199,7 +221,8 @@
     "track": "no specific track",
     "topic": "Basic concepts of video games, Introduction to programming for web-based games, Loops, new definitions, simple controls, Conditionals, Boolean expressions, advanced controls",
     "name": "Computational Thinking in Context: Game Development",
-    "desc": "Introduction to computational thinking, focusing on problem solving and programming concepts and skills needed to develop video games."
+    "desc": "Introduction to computational thinking, focusing on problem solving and programming concepts and skills needed to develop video games.",
+    "section":"No section avaliable."
   },
   "course26": {
     "num": "CSE1222",
@@ -207,7 +230,8 @@
     "track": "no specific track",
     "topic": "C++, loop, method, pointer, structure, c++ array, c++ string",
     "name": "Introduction to Computer Programming in C++ for Engineers and Scientists",
-    "desc": "Introduction to computer programming and to problem solving techniques using computer programs with applications in engineering and the physical sciences; algorithm development; programming lab experience."
+    "desc": "Introduction to computer programming and to problem solving techniques using computer programs with applications in engineering and the physical sciences; algorithm development; programming lab experience.",
+    "section":"0010, TuTh 10:20AM - 11:15AM, John Wilcox; 0011, Mo 8:00AM - 8:55AM, Chien Heng Yu."
   },
   "course27": {
     "num": "CSE1223",
@@ -215,7 +239,8 @@
     "track": "no specific track",
     "topic": "Basic concepts, Primitive types and expressions; String; basic I/O, Flow of control and Boolean expressions, Defining methods, Arrays, Basic exception handling and standard Java I/O, Classes and objects",
     "name": "Introduction to Computer Programming in Java",
-    "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience."
+    "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience.",
+    "section":"0150, WeFr 10:20AM - 11:15AM, Syedah Zahra Atiq; 0151, Tu 8:00AM - 8:55AM, Rider Osentoski; 0160,WeFr 1:50PM - 2:45PM, Naomi Zweben; 0161, Tu 4:10PM - 5:05PM, Rachana Mamilla; 0170, WeFr 11:30AM - 12:25PM, Syedah Zahra Atiq; 0171, Tu 10:20AM - 11:15AM, Hyunjean Choi. "
   },
   "course28": {
     "num": "CSE1224",
@@ -223,7 +248,8 @@
     "track": "no specific track",
     "topic": "Expressions and Types; basic I/O, Lists, Tuples and Dictionaries, Flow of control and Boolean expressions, Defining functions, File I/O, Classes and objects ",
     "name": "Introduction to Computer Programming in Python",
-    "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience."
+    "desc": "Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience.",
+    "section":"0010, WeFr 3:00PM - 3:55PM, Michael Fritz; 0011, Mo 1:50PM - 2:45PM, Vincent Beardsley."
   },
   "course29": {
     "num": "CSE2021",
@@ -231,7 +257,8 @@
     "track": "no specific track",
     "topic": "Introduction to modeling; modeling concepts and definitions, Introduction to MATLAB, scripts, MATLAB arrays, array math, MATLAB programming mechanisms, MATLAB i/0, Advanced graphing in MATLAB; curve fitting, Linear models, Nonlinear functions; modeling examples, Stochastic models",
     "name": "Introduction to Modeling and Simulation",
-    "desc": "Concepts of modeling and simulation; develop MATLAB skills to explore modeling concepts; project: design, implementation, verification/validation of model; oral and written project report."
+    "desc": "Concepts of modeling and simulation; develop MATLAB skills to explore modeling concepts; project: design, implementation, verification/validation of model; oral and written project report.",
+    "section":"No section avaliable."
   },
   "course30": {
     "num": "CSE2111",
@@ -239,7 +266,8 @@
     "track": "no specific track",
     "topic": "intro to computing, spreadsheet basics, decision making with spreadsheets, financial and date functions, intro to database",
     "name": "Modeling and Problem Solving with Spreadsheets and Databases",
-    "desc": "Spreadsheet and database modeling/programming concepts and techniques to solve business related problems; efficient/effective data handling, computational analysis and decision support. Additional topics: computer concepts, networking, project integration."
+    "desc": "Spreadsheet and database modeling/programming concepts and techniques to solve business related problems; efficient/effective data handling, computational analysis and decision support. Additional topics: computer concepts, networking, project integration.",
+    "section":"0010, TuTh 8:00AM - 8:55AM, Laurie Crawford; 0011, Fr 8:00AM - 9:50AM, Vritangi Kansal; 0020, TuTh 9:10AM - 10:05AM, Laurie Crawford; 0021, Fr 12:10PM - 2:00PM, Parth Kharwar; 0030, TuTh 4:10PM - 5:05PM, Diana Kline; 0031, We 12:10PM - 2:00PM, Jun Huang."
   },
   "course31": {
     "num": "CSE2112",
@@ -247,7 +275,8 @@
     "track": "no specific track",
     "topic": "spreadsheet design, Excel Solver, Pivot tables, graphing, programming in Excel VBA, introduction to Database Design, summarizing Data",
     "name": "Modeling and Problem Solving with Spreadsheets and Databases for Engineers",
-    "desc": "Spreadsheet and database modeling/programming concepts and techniques to solve business and engineering related problems; efficient/effective data handling, computational analysis and decision support."
+    "desc": "Spreadsheet and database modeling/programming concepts and techniques to solve business and engineering related problems; efficient/effective data handling, computational analysis and decision support.",
+    "section":"No section avaliable."
   },
   "course32": {
     "num": "CSE2122",
@@ -255,7 +284,8 @@
     "track": "no specific track",
     "topic": "Introduction to course computing environment, Basic features, getting started, basic data types, Advanced data types, functions without returned values, Classes, members, constructors, Friends, destructors, returned values in functions, Operators, Inheritance, Flow of control, dynamic memory allocation, arrays and pointers",
     "name": "Data Structures Using C++",
-    "desc": "Introduction to programming in C++ and object-oriented programming; encapsulation using classes, inheritance, etc."
+    "desc": "Introduction to programming in C++ and object-oriented programming; encapsulation using classes, inheritance, etc.",
+    "section":"No section avaliable."
   },
   "course33": {
     "num": "CSE2123",
@@ -263,7 +293,8 @@
     "track": "no specific track",
     "topic": "Object-oriented programming, Recursion, Sorting and binary search, Linked list, Stacks, Queues, Binary trees",
     "name": "Data Structures Using Java",
-    "desc": "Subroutines and modular programming; searching; basic data structures; recursion; introduction to sequential files."
+    "desc": "Subroutines and modular programming; searching; basic data structures; recursion; introduction to sequential files.",
+    "section":"No section avaliable."
   },
   "course34": {
     "num": "CSE2133",
@@ -271,7 +302,8 @@
     "track": "no specifc track",
     "topic": "Picture clauses; value clauses; group items; literals; Vocabulary; columns; margins; basic coding rules; Identification and environment division; data names; ",
     "name": "Business Programming with File Processing",
-    "desc": "Business data processing principles and programming: sequential file processing algorithms, sorting, data validation; COBOL is taught."
+    "desc": "Business data processing principles and programming: sequential file processing algorithms, sorting, data validation; COBOL is taught.",
+    "section":"No section avaliable."
   },
   "course35": {
     "num": "CSE2193",
@@ -279,7 +311,8 @@
     "track": "no specific track",
     "topic": "Planning, conducting, and reporting a special study appropriate to the needs of the students",
     "name": "Individual Studies in Computer Science and Engineering",
-    "desc": "Planning, conducting, and reporting a special study appropriate to the needs of the students."
+    "desc": "Planning, conducting, and reporting a special study appropriate to the needs of the students.",
+    "section":"No section avaliable."
   },
   "course36": {
     "num": "CSE2451",
@@ -287,7 +320,8 @@
     "track": "no specific track",
     "topic": "C pointers and memory (de)allocation, Transitioning to C, Basic C syntax, working in Unix, programming dynamic data structures with C, String manipulation and I/O in C, function pointers, command line argument passing, debugging, bit operations",
     "name": "Advanced C Programming",
-    "desc": "Advanced C features for students with significant programming experience in another language."
+    "desc": "Advanced C features for students with significant programming experience in another language.",
+    "section":"0010, Mo 8:00AM - 9:50AM, Tong Liang"
   },
   "course37": {
     "num": "CSE2501",
@@ -295,7 +329,8 @@
     "track": "Core",
     "topic": "Professional ethics, Effective communication, Privacy / Civil liberties, Security / Civil liberties, Intellectual property, Computer risks, Computer crime",
     "name": "Social, Ethical, and Professional Issues in Computing",
-    "desc": "Social, ethical, and professional issues facing computing professionals; ethical principles; discussion of case studies."
+    "desc": "Social, ethical, and professional issues facing computing professionals; ethical principles; discussion of case studies.",
+    "section":"0050, Tu 2:20PM - 3:40PM, Naomi Zweben; 0090, Mo 8:00AM - 9:20AM, Timothy Bolwerk; 0120, Tu 11:10AM - 12:30PM, Bryan Weaver; 80, TuTh 3:55PM - 5:15PM, Michelle Mallon."
   },
   "course38": {
     "num": "CSE3231",
@@ -303,7 +338,8 @@
     "track": "Software Engineering (SWS)",
     "topic": "Characteristics of enterprise softw. sys, Software engineering process, Architecting softw. intensive sys, Software project management, Software design, Deployment, Maintenance and Management",
     "name": "Software Engineering Techniques",
-    "desc": "Software engineering issues, techniques, methodologies and technologies; software lifecycle activities: requirements analysis, architecture, design, testing, deployment, maintenance; project management; enterprise software systems; frameworks."
+    "desc": "Software engineering issues, techniques, methodologies and technologies; software lifecycle activities: requirements analysis, architecture, design, testing, deployment, maintenance; project management; enterprise software systems; frameworks.",
+    "section":"0010, TuTh 2:20PM - 3:40PM, Timothy Bolwerk; 0020, TuTh 5:30PM - 6:50PM, Michael Teets; 0030, TuTh 3:55PM - 5:15PM, Lawrence Phelps."
   },
   "course39": {
     "num": "CSE3232",
@@ -311,7 +347,8 @@
     "track": "Software Engineering (SWS)",
     "topic": "Teamwork and organizational dynamics, Data flow diagramming, Requirements elicitation, UML, Software engineering, software development life cycle",
     "name": "Software Requirements Analysis",
-    "desc": "Information systems analysis; object-oriented analysis models and tools; use cases, system modeling using UML; requirements specification development; term project."
+    "desc": "Information systems analysis; object-oriented analysis models and tools; use cases, system modeling using UML; requirements specification development; term project.",
+    "section":"0020, TuTh 7:00PM - 8:20PM, Kristen Elliott; 0030, MoWe 6:00PM - 7:20PM, Jennifer Bentley; 0040, TuTh 6:00PM - 7:20PM, Praveen Kumar."
   },
   "course40": {
     "num": "CSE3241",
@@ -319,7 +356,8 @@
     "track": "Database Systems and Data Analytics (DBA)",
     "topic": "Entity-Relationship (ER) Model, The Structure of the Relational Data Model, Relational Algebra and Relational Calculus, Functional Dependencies and Normalization, ER-to-Relational Data Model, SQL, Graphical User Interfaces, Embedded SQL, Object Relational Databases, XML,Active Databases ",
     "name": "Introduction to Database Systems",
-    "desc": "Database systems use, logical design, entity-relationship model, normalization, query languages and SQL, relational algebra and calculus, object relational databases, XML, active databases; database design project."
+    "desc": "Database systems use, logical design, entity-relationship model, normalization, query languages and SQL, relational algebra and calculus, object relational databases, XML, active databases; database design project.",
+    "section":"0030, MoWe 8:00AM - 9:20AM, Parker Wiksell; 0040, TuTh 5:30PM - 6:50PM, Lin Chiu; 0050, TuTh 12:45PM - 2:05PM, Leon Madrid; 0070, TuTh 2:20PM - 3:40PM, Zina Pichkar."
   },
   "course41": {
     "num": "CSE3244",
@@ -327,7 +365,8 @@
     "track": "no specific track",
     "topic": "Indexing and Optimization, Data warehousing and OLAP, Cloud computing principles, Replication and partitioning strategies, Algorithms and platforms for cloud ",
     "name": "Data Management in the Cloud",
-    "desc": " Systematic organization of data on cloud computing architectures; basic indexing techniques, including B-tree and hash-based indexing; fundamentals of query optimization, including access path selection and cardinality estimation; full and partial replication; data partitioning and distributed task scheduling."
+    "desc": " Systematic organization of data on cloud computing architectures; basic indexing techniques, including B-tree and hash-based indexing; fundamentals of query optimization, including access path selection and cardinality estimation; full and partial replication; data partitioning and distributed task scheduling.",
+    "sesction":"0010, TuTh 11:10AM - 12:30PM, Christopher Stewart, Zichen Zhang."
   },
   "course42": {
     "num": "CSE3321",
@@ -335,7 +374,8 @@
     "track": "no specific track",
     "topic": "Formal languages, Regular languages and finite automata, Grammars, Context-free languages and pushdown automata, Recursively enumerable languages and Turing machines",
     "name": "Automata and Formal Languages",
-    "desc": "Machine-based and grammatical models of computation; finite automata and regular languages, pushdown automata and context-free languages, Turing machines; non-determinism; Church's Thesis."
+    "desc": "Machine-based and grammatical models of computation; finite automata and regular languages, pushdown automata and context-free languages, Turing machines; non-determinism; Church's Thesis.",
+    "section":"0010, TuTh 11:10AM - 12:30PM, Doreen Close."
   },
   "course43": {
     "num": "CSE3341",
@@ -343,7 +383,8 @@
     "track": "Software Engineering (SWS)",
     "topic": "Overview of types of languages, Grammars , abstract & concrete parse tree, recursive descent parsing, Recursive descent interpretation, compilation, Principles of OO languages, Functional programming principles ",
     "name": "Principles of Programming Languages",
-    "desc": " Formal languages and grammars; recursive descent parsing; data types, expressions, control structures, parameter passing; compilers and interpreters; memory management; functional programming principles."
+    "desc": " Formal languages and grammars; recursive descent parsing; data types, expressions, control structures, parameter passing; compilers and interpreters; memory management; functional programming principles.",
+    "section":"0020, MoWeFr 10:20AM - 11:15AM, Neelam Soundarajan; 0040, MoWeFr 3:00PM - 3:55PM, Timothy Carpenter; 0050, MoWeFr 10:20AM - 11:15AM, Mike Bond."
   },
   "course44": {
     "num": "CSE3421",
@@ -351,7 +392,8 @@
     "track": "Computer Systems (CSY)",
     "topic": "State of the art in computer architecture, Moore's law, Quantifying performance and power tradeoffs, Design of instruction set architectures, Digital logic and circuit design, Architecture and design of memory, Design of integer arithmetic logic unit, Processor design: non-pipelined and pipelined, Multicores, multiprocessors, interconnects, I/O subsystems",
     "name": "Introduction to Computer Architecture",
-    "desc": "Organization of hardware and software in modern computer systems, including instruction set design, processor control, ALU design, pipelining, multicores and accelerators, and memory subsystem design."
+    "desc": "Organization of hardware and software in modern computer systems, including instruction set design, processor control, ALU design, pipelining, multicores and accelerators, and memory subsystem design.",
+    "section":"0010, TuTh 9:35AM - 10:55AM, Xiaodong Zhang, Dayi Fan."
   },
   "course45": {
     "num": "CSE3461",
