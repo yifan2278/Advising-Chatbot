@@ -4,6 +4,7 @@ import requests
 import pickle
 import spacy
 import numpy as np
+import elasticsearch as es
 
 # curl -X POST -H "Content-Type: text/plain" --data "this is raw data" http://localhost:8000
 
@@ -26,7 +27,7 @@ def get_class(clf, q):
 
 def get_course_entity(ner_class, q):
     try:
-        return ner_class(q).ents[0]
+        return str(ner_class(q).ents[0])
     except:
         return None
 
@@ -66,22 +67,30 @@ class fooHandler(BaseHTTPRequestHandler):
                     regarding prereqs, AI classes, available sections, etc."""
         elif q_class == 'PREREQ':
             class_num = get_course_entity(ner_class, q.lower())
-            res = 'The prerequisites for {} is : {}'.format(str(ner_class), str(class_num))
+            prereqs = es.search(class_num, 'prereq')
+            res = 'The prerequisites for {} is : {}'.format(class_num, prereqs)
         elif q_class == 'SIMILAR-COURSES':
             class_num = get_course_entity(ner_class, q.lower())
-            res = 'entity:' + str(class_num)
+            track = es.search(class_num, tag='track')
+            sim_course = es.search(track[0]['track'], tag='num', attr='track')
+            res = 'Courses similar to {} are: {}'.format(class_num, sim_course)
         elif q_class == 'RELATED-COURSES-AI':
-            res = q_class
+            ai_course = es.search('artificial intelligence', tag='num', attr='track')
+            res = 'The AI related courses are {}'.format(ai_course)
         elif q_class == 'RELATED-COURSES-PYTHON':
-            res = q_class
+            py_course = es.search('python', tag='num', attr='topic')
+            res = 'The Python related courses are {}'.format(py_course)
         elif q_class == 'TOPICS':
             class_num = get_course_entity(ner_class, q.lower())
-            res = 'entity:' + str(class_num)
+            desc = es.search(class_num, tag='topic')
+            res = '{}: {}'.format(class_num, desc)
         elif q_class == 'WHO-TEACH':
             class_num = get_course_entity(ner_class, q.lower())
-            res = 'entity:' + str(class_num)
+            prof = es.search(class_num, tag='section')
+            res = 'The instructor for {} is/are {}'.format(class_num, prof)
         elif q_class == 'TEACH-WHAT':
-            person = get_person_entity(ner_person, q)
+            # person = get_person_entity(ner_person, q)
+            # course = es.search(person, tag='num', attr='section')
             res = 'entity:' + str(person)
         elif q_class == 'AVAILABLE-SEC':
             class_num = get_course_entity(ner_class, q.lower())
@@ -96,10 +105,15 @@ class fooHandler(BaseHTTPRequestHandler):
 
 
 def main():
+    es.deleteData()
+    es.load_data()
+
     PORT = 8000
     server = HTTPServer(('', PORT), fooHandler)
     print('Server running on port %s' % PORT)
     server.serve_forever()
+
+    es.deleteData()
 
 
 if __name__ == '__main__':
