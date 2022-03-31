@@ -41,13 +41,7 @@ def search(entity, tag='', attr='num'):
             info = hits2[i]['_source']
             # print(info['num'])
             if tag == '':
-                # print('num: ' + info['num'])
-                # print('name: ' + info['name'])
-                # print('track: ' + info['track'])
-                # print('prereq: ' + info['prereq'])
-                # print('topic: ' + info['topic'])
-                # print('desc: ' + info['desc'])
-                # print('section: ' + info['section'])
+                
                 result['num'] = info['num']
                 result['name'] = info['name']
                 result['track'] = info['track']
@@ -66,13 +60,7 @@ def search(entity, tag='', attr='num'):
         info = hits2[0]['_source']
         result = {}
         if tag == '':
-            # print('num: ' + info['num'])
-            # print('name: ' + info['name'])
-            # print('track: ' + info['track'])
-            # print('prereq: ' + info['prereq'])
-            # print('topic: ' + info['topic'])
-            # print('desc: ' + info['desc'])
-            # print('section: ' + info['section'])
+
             print('\n')
             result['num'] = info['num']
             result['name'] = info['name']
