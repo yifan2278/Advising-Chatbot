@@ -11,7 +11,7 @@ headers = {
 
 def load_data():
     print('ES: Loading data...')
-    with open('./data/course_data.json') as file:
+    with open('course_data.json') as file:
         course_data = json.load(file)
     for i in range(len(course_data)):
         # print(i)
@@ -36,44 +36,69 @@ def search(entity, tag='', attr='num'):
     hits2 = hits1['hits']
     length = len(hits2)
     # info = hits2[3]['_source']
-
+    listOfResult = []
     # ele = info['hits']
     if not len(entity) == 7:
         for i in range(length):
+            result = {}
             info = hits2[i]['_source']
             # print(info['num'])
             if tag == '':
-                print('num: ' + info['num'])
-                print('name: ' + info['name'])
-                print('track: ' + info['track'])
-                print('prereq: ' + info['prereq'])
-                print('topic: ' + info['topic'])
-                print('desc:' + info['desc'])
-                print('section:', info['section'])
+                # print('num: ' + info['num'])
+                # print('name: ' + info['name'])
+                # print('track: ' + info['track'])
+                # print('prereq: ' + info['prereq'])
+                # print('topic: ' + info['topic'])
+                # print('desc: ' + info['desc'])
+                # print('section: ' + info['section'])
+                result['num'] = info['num']
+                result['name'] = info['name']
+                result['track'] = info['track']
+                result['prereq'] = info['prereq']
+                result['topic'] = info['topic']
+                result['desc'] = info['desc']
+                result['section'] = info['section']
+
                 print('\n')
+                listOfResult.append(result)
             else:
-                print(tag + ': ' + info[tag])
+                result[tag] = info[tag]
+                listOfResult.append(result)
+                # print(tag + ': ' + info[tag])
     else:
         info = hits2[0]['_source']
+        result = {}
         if tag == '':
-            print('num: ' + info['num'])
-            print('name: ' + info['name'])
-            print('track: ' + info['track'])
-            print('prereq: ' + info['prereq'])
-            print('topic: ' + info['topic'])
-            print('desc:' + info['desc'])
-            print('section:', info['section'])
+            # print('num: ' + info['num'])
+            # print('name: ' + info['name'])
+            # print('track: ' + info['track'])
+            # print('prereq: ' + info['prereq'])
+            # print('topic: ' + info['topic'])
+            # print('desc: ' + info['desc'])
+            # print('section: ' + info['section'])
             print('\n')
+            result['num'] = info['num']
+            result['name'] = info['name']
+            result['track'] = info['track']
+            result['prereq'] = info['prereq']
+            result['topic'] = info['topic']
+            result['desc'] = info['desc']
+            result['section'] = info['section']
+            listOfResult.append(result)
         else:
-            print(tag + ': ' + info[tag])
-
+            # print(tag + ': ' + info[tag])
+            result[tag] = info[tag]
+            listOfResult.append(result)
+    return listOfResult
 
 def deleteData():
     print(requests.delete(url='http://localhost:9200/_all').json())
 
 
 load_data()
-search('Artificial intelligence', tag='num', attr='track')
-search('cse3521')
-sleep(1)
+list = search('cse352')
+for i in range(len(list)):
+    for k,v in list[i].items():
+        print(k,v)
+    print('\n')
 deleteData()
