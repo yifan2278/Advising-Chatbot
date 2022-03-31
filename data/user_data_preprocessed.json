@@ -86,9 +86,18 @@
 	{ "label": "TEACH-WHAT", "passage": "what does stephen boxwell teach" },
 	{ "label": "TEACH-WHAT", "passage": "what is stan vernier teaching" },
 	{ "label": "TEACH-WHAT", "passage": "what is stephen boxwell teaching" },
+	{ "label": "AVAILABLE-SEC", "passage": "sections are for cse5914" },
+	{ "label": "AVAILABLE-SEC", "passage": "sections are of cse5914" },
+	{ "label": "AVAILABLE-SEC", "passage": "what are the sections are for cse5243" },
+	{ "label": "AVAILABLE-SEC", "passage": "what are the sections are of cse5243" },
 	{ "label": "AVAILABLE-SEC", "passage": "what sections of cse2221 are still open" },
 	{ "label": "AVAILABLE-SEC", "passage": "what are the available sections of cse2221" },
 	{ "label": "AVAILABLE-SEC", "passage": "available sections of cse2221" },
 	{ "label": "AVAILABLE-SEC", "passage": "what sections are available for cse3241" },
-	{ "label": "AVAILABLE-SEC", "passage": "available cse2221 sections" }
+	{ "label": "AVAILABLE-SEC", "passage": "available cse2221 sections" },
+	{ "label": "AVAILABLE-SEC", "passage": "what sections of cse5523 are still open" },
+	{ "label": "AVAILABLE-SEC", "passage": "what are the available sections of cse5525" },
+	{ "label": "AVAILABLE-SEC", "passage": "available sections of cse5526" },
+	{ "label": "AVAILABLE-SEC", "passage": "what sections are available for cse5243" },
+	{ "label": "AVAILABLE-SEC", "passage": "available cse3521 sections" }
 ]
