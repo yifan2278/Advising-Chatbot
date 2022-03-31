@@ -10,7 +10,7 @@ headers = {
 
 def load_data():
     print('ES: Loading data...')
-    with open('course_data.json') as file:
+    with open('./data/course_data.json') as file:
         course_data = json.load(file)
     for i in range(len(course_data)):
         # print(i)

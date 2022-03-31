@@ -2,7 +2,7 @@ import requests
 import spacy
 import pickle
 import numpy as np
-import kb.elasticsearch as es
+import elasticsearch as es
 
 
 def get_class(clf, q):
