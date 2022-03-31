@@ -9,7 +9,6 @@
         <div class="scroller" #scroll>
             <div class="chat" *ngFor="let m of msgs; let i = index" [ngClass]="{'current': i>=msgs.length-2 && i>=4}">
                 <div class="bot" *ngIf="m[1]==='Bot'; else elseBlock">
-
                     <p><i class="fa fa-solid fa-robot fa-lg"></i>&nbsp;&nbsp;&nbsp;{{ m[0] }}</p>
                 </div>
                 <ng-template #elseBlock>
