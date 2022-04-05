@@ -7,19 +7,19 @@ import elasticsearch as es
 
 def get_class(clf, q):
     prob = clf.predict_proba([q])
-    # res = 'GREETING'
-    # if np.max(prob) > 0.2:
-    #     res = clf.classes_[np.argmax(prob)]
-    res = clf.classes_[np.argmax(prob)]
-    print('class:', res, np.max(prob))
+    res = 'GREETING'
+    if np.max(prob) > 0.18:
+        res = clf.classes_[np.argmax(prob)]
+    # res = clf.classes_[np.argmax(prob)]
+    # print('class:', res, np.max(prob))
     return res
 
 
 def get_course_entity(ner_class, q):
     try:
-        return str(ner_class(q).ents[0])
+        return str(ner_class(q).ents[0]).replace(' ', '')
     except:
-        return None
+        return ''
 
 
 def get_person_entity(ner_person, q):
@@ -28,7 +28,10 @@ def get_person_entity(ner_person, q):
     for ent in doc.ents:
         if ent.label_ == 'PERSON':
             res.append(ent)
-    return res
+    try:
+        return str(res[0])
+    except:
+        return ''
 
 
 def main():
