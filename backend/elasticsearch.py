@@ -82,6 +82,17 @@ def search(entity, tag='', attr='num'):
 def deleteData():
     print(requests.delete(url='http://localhost:9200/_all').json())
 
+def sectionProcess(section):
+    result = []
+    for i in section:
+        value = i['section']
+        sections = value.split(";")
+        # sec = []
+        for j in sections:
+            # print(j)
+            info = j.split(",")
+            result.append(info)
+    return result
 
 load_data()
 list = search('cse352')
