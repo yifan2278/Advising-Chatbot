@@ -24,13 +24,11 @@ def load_data():
     print('ES: Done!')
 
 
-def search(entity, tag='', attr='num'):
+def search(entity, tag='', attr='num', fuzz=2):
     entity = entity.upper()
     tag = tag.lower()
     temp = requests.get(url='http://localhost:9200/course/_search',
-                        data='{ "query": { "match" : { "' + attr +
-                            '": { "query": "' + entity +
-                        '", "fuzziness": "2" } } } }',
+                        data='{ "query": { "match" : { "' + attr + '": { "query": "' + entity + '", "fuzziness": '+'"'+str(fuzz)+'" } } } }',
                         headers=headers).json()
     hits1 = temp['hits']
     hits2 = hits1['hits']
