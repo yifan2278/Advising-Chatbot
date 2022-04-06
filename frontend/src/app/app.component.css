@@ -1,13 +1,14 @@
+body {
+    font-size: 18px;
+}
+
 .chat {
+    width: 70%;
+    margin: auto;
     font-family: sans-serif;
     text-align: center;
     height: 50px;
     padding: 50px;
-    margin: 20px;
-}
-
-.container-lg {
-    padding-top: 50px;
 }
 
 .fa {
@@ -15,13 +16,13 @@
 }
 
 .scroller {
-    padding-top: 20px;
-    padding-bottom: 300px;
+    padding-bottom: 20%;
     width: 90%;
-    height: 500px;
+    height: 30%;
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
+    margin: auto;
 }
 
 .current {
@@ -29,43 +30,36 @@
 }
 
 .current .bot {
-    animation: fadeIn linear 1.2s;
+    animation: fadeIn ease-in 1.2s;
 }
 
 form {
     text-align: center;
-    padding: 50px;
-}
-
-img {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
 }
 
 label {
-    font-size: 22px;
+    font-size: 1.5em;
 }
 
 input {
-    height: 50px;
-    width: 50%;
+    position: flex;
+    height: 100px;
+    width: 60%;
 }
 
 .bot {
     text-align: left;
-    padding-left: 200px;
 }
 
 .user {
     text-align: right;
-    padding-right: 100px;
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
