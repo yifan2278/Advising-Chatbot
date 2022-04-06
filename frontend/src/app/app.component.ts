@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { Component, ViewChild, ElementRef, AfterViewInit, NgModule } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({

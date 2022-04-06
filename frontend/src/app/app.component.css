@@ -1,28 +1,41 @@
 body {
-    font-size: 18px;
+    background-image: url("../assets/alt_back.jpeg");
+    font-size: 16px;
+    line-height: 1.5
 }
 
-.chat {
-    width: 70%;
-    margin: auto;
-    font-family: sans-serif;
-    text-align: center;
-    height: 50px;
-    padding: 50px;
+.spacer {
+    flex: 1 1 auto;
 }
 
-.fa {
-    display: inline
+.box {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #FFFFFF;
+    margin: 0% 20%;
 }
 
 .scroller {
     padding-bottom: 20%;
     width: 90%;
-    height: 30%;
+    height: 370px;
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
     margin: auto;
+    border-bottom: black;
+}
+
+.chat {
+    margin: auto;
+    font-family: sans-serif;
+    height: 8%;
+    padding: 5%;
+    border-bottom: black;
+}
+
+.fa {
+    display: inline
 }
 
 .current {
@@ -35,16 +48,18 @@ body {
 
 form {
     text-align: center;
+    padding-bottom: 5%;
 }
 
 label {
+    background: #FFFFFF;
     font-size: 1.5em;
 }
 
 input {
-    position: flex;
     height: 100px;
     width: 60%;
+    border-radius: 25px;
 }
 
 .bot {
@@ -53,6 +68,10 @@ input {
 
 .user {
     text-align: right;
+}
+
+.flexExpand {
+    flex: 1 1 auto;
 }
 
 @keyframes fadeIn {

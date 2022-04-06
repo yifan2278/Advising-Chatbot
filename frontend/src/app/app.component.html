@@ -1,28 +1,38 @@
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
 <body>
-    <div class="scroller" #scroll>
-        <div class="chat" *ngFor="let m of msgs; let i = index" [ngClass]="{'current': i>=msgs.length-2 && i>=4}">
-            <div class="bot" *ngIf="m[1]==='Bot'; else elseBlock">
-                <p><i class="fa fa-solid fa-robot fa-lg"></i>&nbsp;&nbsp;&nbsp;{{ m[0] }}</p>
-            </div>
-            <ng-template #elseBlock>
-                <div class="user">
-                    <p>{{ m[0] }}&nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-user fa-lg"></i></p>
+    <mat-toolbar>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span class="name">Advising Chatbot</span>
+        <span class="spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon b1" aria-label="icon-button with calendar">
+            <mat-icon>calendar_today</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="icon-button with palette">
+            <mat-icon>palette</mat-icon>
+        </button>
+    </mat-toolbar>
+
+    <div class="box">
+        <div class="scroller" #scroll>
+            <div class="chat" *ngFor="let m of msgs; let i = index" [ngClass]="{'current': i>=msgs.length-2 && i>=4}">
+                <div class="bot" *ngIf="m[1]==='Bot'; else elseBlock">
+                    <p><i class="fa fa-solid fa-robot fa-lg"></i>&nbsp;&nbsp;&nbsp;{{ m[0] }}</p>
                 </div>
-            </ng-template>
+                <ng-template #elseBlock>
+                    <div class="user">
+                        <p>{{ m[0] }}&nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-user fa-lg"></i></p>
+                    </div>
+                </ng-template>
+            </div>
         </div>
+        <form>
+            <label for="msg">Enter a message for the bot</label><br>
+            <br>
+            <input type="text" id="msg" name="msg" value="Hello World" [(ngModel)]='inp'>
+            <br>
+            <br>
+            <button mat-raised-button type="submit" (click)="onGoToSubmit()">Submit</button>
+        </form>
     </div>
-    <form>
-        <label for="msg">Enter a message for the bot</label><br>
-        <br>
-        <input type="text" id="msg" name="msg" value="Hello World" [(ngModel)]='inp'>
-        <br>
-        <br>
-        <button class="btn btn-outline-dark btn-lg" type="submit" (click)="onGoToSubmit()">Submit</button>
-    </form>
 </body>
