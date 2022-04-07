@@ -47,7 +47,7 @@ class fooHandler(BaseHTTPRequestHandler):
         elif q_class == 'SIMILAR-COURSES':
             class_num = util.get_course_entity(ner_class, q.lower())
             track = es.search(class_num, tag='track')
-            sim_course = es.search(track[0]['track'], tag='num', attr='track')
+            sim_course = es.search(track[0]['track'], tag='num', attr='track', fuzz=0)
             res = 'Courses similar to {} are: {}'.format(class_num, sim_course)
 
         elif q_class == 'RELATED-COURSES-AI':
@@ -60,8 +60,9 @@ class fooHandler(BaseHTTPRequestHandler):
 
         elif q_class == 'TOPICS':
             class_num = util.get_course_entity(ner_class, q.lower())
-            desc = es.search(class_num, tag='topic')
-            res = '{}: {}'.format(class_num, desc)
+            topic = es.search(class_num, tag='topic')
+            desc = es.search(class_num, tag='desc')
+            res = '{}: {}, {}'.format(class_num, topic, desc)
 
         elif q_class == 'WHO-TEACH':
             class_num = util.get_course_entity(ner_class, q.lower())
@@ -70,12 +71,12 @@ class fooHandler(BaseHTTPRequestHandler):
 
         elif q_class == 'TEACH-WHAT':
             person = util.get_person_entity(ner_person, q)
-            course = es.search(person, tag='num', attr='section')
+            course = es.search(person, tag='num', attr='section', fuzz=0)
             res = 'entity:' + person + str(course)
 
         elif q_class == 'AVAILABLE-SEC':
             class_num = util.get_course_entity(ner_class, q.lower())
-            section = es.search(class_num, tag='section')
+            section = es.sectionProcess(es.search(class_num, tag='section'))
             res = 'entity:' + str(class_num) + str(section)
 
         elif q_class == 'GOODBYE':
