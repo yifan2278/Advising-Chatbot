@@ -23,10 +23,6 @@ export class AppComponent {
       console.log("Response from server " + data)
       this.msgs.push([data, 'Bot'])
     })
-    this.http.post("http://localhost:8000", this.inp, { responseType: 'text' }).subscribe(data => {
-      console.log("Response from server " + data)
-      this.msgs.push([data, 'Bot'])
-    })
     this.inp = ""
     let scrollInstance = this.scroll.nativeElement
     //auto scroll the chat window
