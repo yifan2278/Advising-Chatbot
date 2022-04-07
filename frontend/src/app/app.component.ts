@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef, AfterViewInit, NgModule } from '@angular/core';
+import { Component, ViewChild, ElementRef, AfterViewInit, NgModule, SimpleChanges } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -27,10 +27,22 @@ export class AppComponent {
     this.inp = ""
     let scrollInstance = this.scroll.nativeElement
     //auto scroll the chat window
-    scrollInstance.scrollTop = scrollInstance.children[this.msgs.length - 2].offsetHeight + scrollInstance.children[this.msgs.length - 2].offsetTop
+    //scrollInstance.scrollTop = scrollInstance.children[this.msgs.length - 2].offsetHeight + scrollInstance.children[this.msgs.length - 2].offsetTop
     console.log(scrollInstance.children[this.msgs.length - 2])
+    this.setView()
   }
 
+  setView() {
+    console.log("ayay!!!")
+    console.log(this.msgs)
+    let scrollInstance = this.scroll.nativeElement
+    let bot_msgs = scrollInstance.getElementsByClassName('bot')
+    let last = bot_msgs[bot_msgs.length - 1]
+    console.log(this.msgs.length)
+    console.log(bot_msgs.length)
+    console.log(bot_msgs[1])
+    last.scrollIntoView({ behavior: 'smooth' })
+  }
 
 
 
