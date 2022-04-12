@@ -74,7 +74,7 @@
   "course9": {
     "num": "CSE5523",
     "prereq": "3521, 5521, or 5243; and 5522, Stat 3460, or 3470; and Math 2568, 2174, 4568, or 5520H; or Grad standing.",
-    "track": "no specific track",
+    "track": "Artificial intelligence (AI)",
     "topic": "Basics of statistical pattern recognition, Probability and statistical inference, Bayes decision theory, Analysis of statistical algorithms, Clustering, Spectral clustering",
     "name": "Machine Learning and Statistical Pattern Recognition",
     "desc": "Introduction to basic concepts of machine learning and statistical pattern recognition; techniques for classification, clustering and data representation and their theoretical analysis."
