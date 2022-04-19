@@ -3,17 +3,17 @@
 A chatbot capable of answering basic frequenly asked CSE advising questions.
 
 ## Getting Started
-1. Run Python server inside the backend directory (port 8000)
+1. Run Python server inside the backend directory
 ```
 python3 ./backend/server.py
 ```
-2. Install dependencies and run Angular frontend inside the frontend directory (port 4200)
+2. Install dependencies and run Angular frontend inside the frontend
 ```
 cd frontend
 npm install
 ng serve ("npm run ng serve" for Win)
 ```
-3. Run Elastic Search version 7.12.1. as database (port 9200)
+3. Run Elastic Search version 7.12.1. as database
 ```
 docker run --name elasticsearch -d -p 9200:9200 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.12.1
 ```
@@ -42,7 +42,6 @@ docker run --name elasticsearch -d -p 9200:9200 -e "discovery.type=single-node" 
 * TEACH-WHAT
 * AVAILABLE-SEC
 * NOT-SUPPORTED
-* **TODO**
 
 **Note: Data format must match the definition by [NLPC](https://github.com/osu-cse-5914/natural-language-processing-classifier).**
 
@@ -50,11 +49,7 @@ docker run --name elasticsearch -d -p 9200:9200 -e "discovery.type=single-node" 
 
 * COURSE (model in [test_spaCy.py](test_spaCy.py))
 * INSTRUCTOR (use [pretrained model](https://spacy.io/models/en/))
-* ~~TRACK (e.g., AI, Database)~~
-* **TODO**
 
 **Note: Data format must match that in [train_ner_course.py](./ner/train_ner_course.py).**
 
 ## Search KB for Answer
-
-**TODO**
