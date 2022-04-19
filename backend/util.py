@@ -17,7 +17,7 @@ def get_class(clf, q):
 
 def get_course_entity(ner_class, q):
     try:
-        return str(ner_class(q).ents[0]).replace(' ', '')
+        return str(ner_class(q).ents[0]).replace(' ', '').upper()
     except:
         return ''
 
