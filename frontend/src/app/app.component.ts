@@ -1,5 +1,8 @@
-import { Component, ViewChild, ElementRef, AfterViewInit, NgModule, SimpleChanges } from '@angular/core';
+import { Component, ViewChild, ElementRef, NgModule, SimpleChanges } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,7 +14,20 @@ export class AppComponent {
   inp: String = ""
   msgs: String[][] = []
   postId: String = ""
-  constructor(private http: HttpClient) { }
+  showCalendar: Boolean = false
+  constructor(private http: HttpClient, public dialog: MatDialog) { }
+
+  // openDialog(): void {
+  //   const dialogRef = this.dialog.open(calendar - this.dialog, {
+  //     width: '250px',
+  //     data: { name: this.name, animal: this.animal },
+  //   });
+
+  //   dialogRef.afterClosed().subscribe(result => {
+  //     console.log('The dialog was closed');
+  //     this.animal = result;
+  //   });
+  // }
 
   ngOnInit(): void {
     this.msgs.push(["Nice to meet you!", "User"], ["Hello!", "Bot"], ["Who are you?", "User"], ["I am an advising chatbot.", "Bot"])
