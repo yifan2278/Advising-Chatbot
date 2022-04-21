@@ -90,7 +90,7 @@ class fooHandler(BaseHTTPRequestHandler):
             prof = es.search(class_num, tag='section')
             if len(prof) == 0:
                 raise Exception('abc')
-            res = 'The instructors for {} are {}.'.format(class_num, get_str_from_list(prof, 'section'))
+            res = 'The instructors for {} are {}'.format(class_num, get_str_from_list(prof, 'section'))
 
         elif q_class == 'TEACH-WHAT':
             person = util.get_person_entity(ner_person, q)
